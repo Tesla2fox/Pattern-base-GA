@@ -10,6 +10,7 @@ import plotly.plotly as py
 import plotly.graph_objs as go
 import plotly
 import copy
+from plotly import tools
 from env import *
 
 
@@ -73,6 +74,22 @@ class Pattern:
                     ind = 0
                 else:
                     ind = ind + 1
+    def convert2DrawData(self):
+        shapeLst = []
+        annotations = []
+        lstx = []
+        lsty = []
+        for key in self.dic:
+            pnt = Pnt(self.dic[key][0] - 0.5,self.dic[key][1] -0.5)
+            rect = Rect(pnt,1,1)
+            rectDic = rect.rect2dict()
+            rectDic['line']['width'] = 0.5
+            shapeLst.append(copy.deepcopy(rectDic))
+            annotations.append(dict(showarrow = False,x = pnt.x + 0.5 ,y = pnt.y + 0.5,text = str(key)))
+            lstx.append(pnt.x + 0.5)
+            lsty.append(pnt.y + 0.5)
+            trace = go.Scatter(x= lstx, y=lsty)
+        return trace,shapeLst,annotations
                     
 def drawPattern(dic = dict()):
     shapeLst = []
