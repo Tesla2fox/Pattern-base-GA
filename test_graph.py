@@ -13,10 +13,10 @@ G.add_edge(2,1)
 G.add_node("spam")       # adds node "spam"
 print(list(nx.connected_components(G)))
 
-nx.draw(G)
+#nx.draw(G)
 #nx.draw_random(G)
 #nx.draw_spectral(G)
-plt.show()
+#plt.show()
 
 
 #[set([1, 2, 3]), set(['spam'])]
