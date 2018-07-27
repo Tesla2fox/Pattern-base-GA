@@ -250,10 +250,13 @@ if __name__ =='__main__':
 #   test the edge add function 
 #==============================================================================
     
-    writeConf(f_con,'sPntx',sPntx)
-    writeConf(f_con,'sPnty',sPnty)
-    writeConf(f_con,'tPntx',tPntx)
-    writeConf(f_con,'tPnty',tPnty)    
+#    writeConf(f_con,'sPntx',sPntx)
+#    writeConf(f_con,'sPnty',sPnty)
+#    writeConf(f_con,'tPntx',tPntx)
+#    writeConf(f_con,'tPnty',tPnty)    
+# =============================================================================
+#  end the test the edge add fucntion 
+# =============================================================================
     grid = []    
     for x,y in ndindex(mat.shape):
         grid.append(int(mat[x][y]))
