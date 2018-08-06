@@ -290,7 +290,7 @@ class Env:
 def drawPic(cfgFileName = '5_20_20_80_Outdoor_Cfg.txt',drawType = 1,
             fileName = 'nothing',
             fileType = False ):
-#    py.sign_in('tesla_fox', 'HOTRQ3nIOdYUUszDIfgN')
+    py.sign_in('tesla_fox', 'HOTRQ3nIOdYUUszDIfgN')
     conFileDir = './/data//'
     degNameCfg = conFileDir + cfgFileName
     
