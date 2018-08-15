@@ -8,7 +8,23 @@ Created on Thu Jul 12 16:57:07 2018
 from GA_Pattern import *
 from cpp_cfg import *
 from plotly import tools
-import numpy
+from numpy import *
+import numpy as np
+import Astar as A
+
+class Point:
+    """
+    表示一个点
+    """
+    def __init__(self,x,y):
+        self.x=x;self.y=y
+ 
+    def __eq__(self, other):
+        if self.x==other.x and self.y==other.y:
+            return True
+        return False
+    def __str__(self):
+        return "x:"+str(self.x)+",y:"+str(self.y)
 
 class Decode:
     def __init__(self):
@@ -72,6 +88,8 @@ class Decode:
         
         readCfg.get('robRow',self.robRowLst)
         readCfg.get('robCol',self.robColLst)
+ #       print('self.robRowLst',self.robRowLst)
+ #       print('self.robColLst',self.robColLst)
         index = 0
         for unit in self.robRowLst:
             self.robRowLst[index]  = int(unit)
@@ -174,11 +192,49 @@ class Decode:
 #                        print('id',movRobID)
 #                        print('patternSEQ',self.robState[movRobID]['patternSeq'])
                     if(movRobState['act'] == False):
-                        continue
+                        continue                    
+                    print('self.robState[movRobID]:',self.robState[movRobID]['pos'])
                     self.path[movRobID].append(self.robState[movRobID]['pos'])
                 else:
-                    self.path[movRobID].append(self.robState[movRobID]['pos'])                    
+#                    self.path[movRobID].append(self.robState[movRobID]['pos'])                    
                     movRobState['step'] = movRobState['step'] - 1
+        
+####XMeng添加内容######################################
+######################################################
+        for i in range(self.robNum):
+            movRobID = actSeq[i][0] 
+            rob_path=self.path[movRobID]
+            print('movRobID',movRobID)
+            print('rob_path',rob_path)
+            print('rob_path_len',len(rob_path))
+            rob_path_again=[]
+            for index,item in enumerate(rob_path):
+                if index<len(rob_path)-1:
+                    x_bias = abs(rob_path[index + 1][0] - rob_path[index][0])
+                    y_bias = abs(rob_path[index + 1][1] - rob_path[index][1])
+                    if (x_bias + y_bias) == 1:
+                        rob_path_again.append(item)
+                    else:
+                        rob_path_again.append(item)
+                        #CloseList = []#路径列表 
+                        map2d=decode.envMat
+                        print('s_pnt',[item[0],item[1]])
+                        print('e_pnt',[rob_path[index+1][0],rob_path[index+1][1]])
+                        aStar=A.AStar(map2d,Point(item[0],item[1]),Point(rob_path[index+1][0],rob_path[index+1][1]))
+                        pathList=aStar.start()
+                        #rob_path_again.append(pathList)
+                        #path=A.Astar_path(item[0],item[1],rob_path[index+1][0],rob_path[index+1][1])
+                        for point in pathList:
+                            #map2d[point.x][point.y]=8
+                            rob_path_again.append((point.x,point.y))
+                elif index==len(rob_path)-1:
+                    rob_path_again.append(item)
+            self.path[movRobID]=rob_path_again
+            print(len(rob_path_again))
+            print(len(self.path[movRobID]))
+#            print('rob_path_again',rob_path_again)
+#######################################################
+                
         c_rate = len(set(self.coveredGrid))/len(self.robReachSet)
         max_path = max(self.path,key=lambda x: len(x))
         makeSpan = len(self.path[self.path.index(max_path)])
@@ -278,6 +334,7 @@ class Decode:
         for path in self.path:
             path_x = []
             path_y = []
+            print(len(path))
             for unit in path:
                 path_x.append(unit[0] + 0.5)
                 path_y.append(unit[1] + 0.5)
@@ -289,8 +346,9 @@ class Decode:
 if __name__ == '__main__':
     decode = Decode()
     decode.addPattern()
+    print('decode.envMat',decode.envMat)
 #    decode.drawAllPatern()
-    decode.chrom = [1,3,500,3,10,2,10,
+    decode.chrom = [1,0,500,3,10,2,10,
                     5,1,10,1,10,2,10,
                     4,2,10,0,10,2,10,
                     2,1,10,1,10,2,10,
@@ -308,10 +366,9 @@ if __name__ == '__main__':
 #    proOrgStatic = subprocess.Popen([org_exe_name,degNameCfg],stdin =subprocess.PIPE,stdout = subprocess.PIPE)
 #    for line in proOrgStatic.stdout:
 #        print(line)        
+#    drawPic(fileCfgName,8,'testNothing',True)
     drawPic(fileCfgName,8,'testNothing',True)
-#    drawPic(fileCfgName,9,'testNothing',True)
 
-    
 #==============================================================================
 # # zero means the obstacle pnt
 # # one means the way pnt

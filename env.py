@@ -498,6 +498,7 @@ def drawPic(cfgFileName = '5_20_20_80_Outdoor_Cfg.txt',drawType = 1,
     
 #  case 8  draw environment and the GA_pattern path    
     if(drawType == 8):
+        print('wtf')
         env = Env(mat)
         env.addgrid()
         robLst = []
@@ -508,9 +509,12 @@ def drawPic(cfgFileName = '5_20_20_80_Outdoor_Cfg.txt',drawType = 1,
         pathCfg = Read_Cfg(pathNameCfg)
         robNum = int(pathCfg.getSingleVal('robNum'))
         pathData = []
+#        print(robNum)
         for i in range(robNum):
             path_x = []
             pathCfg.get('path_x'+str(i),path_x)
+#            print(len(path_x))
+#            print(path_x)
             pathData.append(copy.deepcopy(path_x))
             path_y = []
             pathCfg.get('path_y'+str(i),path_y)
