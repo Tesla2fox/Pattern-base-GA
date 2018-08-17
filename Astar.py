@@ -2,7 +2,7 @@
 """
 Created on Tue Jul 31 20:29:09 2018
 
-@author: Administrator
+@author: download+XMeng根据所需情况进行环境的更改并加入获取生成路径的ClostList列表
 """
 
 import decode as de
@@ -140,8 +140,11 @@ class AStar:
             return
         #如果在openList中，判断minF到当前点的G是否更小
         if minF.g+step<currentNode.g: #如果更小，就重新计算g值，并且改变father
-            currentNode.g=minF+step
-            currentNode.father=minF
+#            print(currentNode.g)
+#            print(step)
+#            print(minF)
+            currentNode.g= minF.g + step            
+            currentNode.father = minF
  
     def start(self):
         '''
@@ -159,7 +162,7 @@ class AStar:
             self.closeList.append(minF)
             self.openList.remove(minF)
             #判断这个节点的上下左右节点
-            self.searchNear(minF,0,-1)
+            self.searchNear(minF, 0, -1)
             self.searchNear(minF, 0, 1)
             self.searchNear(minF, -1, 0)
             self.searchNear(minF, 1, 0)
@@ -182,27 +185,33 @@ class AStar:
                 return None
 
 
-if __name__ == '__main__':
+#if __name__ == '__main__':
+def Astar_path(start_x,start_y,end_x,end_y):
     #创建一个10*10的地图
     CloseList = []#路径列表 
     decode = de.Decode()
     decode.addPattern()
     map2d=decode.envMat
-
+    #w,h=np.shape(map2d)
     #显示地图当前样子
     #map2d.showArray2D()
     #创建AStar对象,并设置起点为0,0终点为9,0
-    aStar=AStar(map2d,Point(0,0),Point(9,0))
+    aStar=AStar(map2d,Point(start_x,start_y),Point(end_x,end_y))
     #开始寻路
     pathList=aStar.start()
     #遍历路径点,在map2d上以'8'显示
     print('pathList\n',pathList)
     for point in pathList:
         map2d[point.x][point.y]=8
-        CloseList.append([point.x,point.y])
+        CloseList.append((point.x,point.y))
     print(CloseList)
         # print(point)
     print("----------------------")
     #再次显示地图
     #map2d.showArray2D()
     print('map2d:\n',map2d)
+    return CloseList
+
+
+if __name__ == '__main__':
+    Astar_path(0,0,9,0)

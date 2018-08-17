@@ -27,7 +27,7 @@ class Point:
         return "x:"+str(self.x)+",y:"+str(self.y)
 
 class Decode:
-    def __init__(self):
+    def __init__(self,cfgFileName = '6_40_40_329_office_Cfg.txt'):
         self.robNum = 0
         self.patternMax = 3
         self.chrom = []
@@ -47,7 +47,7 @@ class Decode:
         self.path = []
         
         
-        cfgFileName = '5_20_20_80_Outdoor_Cfg.txt'
+#        cfgFileName = '5_20_20_80_Outdoor_Cfg.txt'
         conFileDir = './/data//'
         degNameCfg = conFileDir + cfgFileName    
         readCfg = Read_Cfg(degNameCfg)
@@ -79,7 +79,7 @@ class Decode:
         for i in range(len(self.robReachColLst)):
             self.robReachSet.add((int(self.robReachRowLst[i])
                     ,int(self.robReachColLst[i])))
-        print(self.robReachSet)
+        #print(self.robReachSet)
 #==============================================================================
 #         此处需要修改
 #==============================================================================
@@ -104,25 +104,51 @@ class Decode:
         turnLst = [1,1,1]
         locationLst = [0 for i in range(3)]
         self.patternLst.append(Pattern(turnLst = turnLst, locationLst = locationLst))
+#        self.patternLst.append(Pattern(turnLst = turnLst, locationLst = locationLst, Env=self.envMat))
 # p2 
         turnLst = [0,0,0]
         locationLst = [1 for i in range(3)]
         self.patternLst.append(Pattern(turnLst = turnLst, locationLst = locationLst))
+#        self.patternLst.append(Pattern(turnLst = turnLst, locationLst = locationLst, Env=self.envMat))
 # p3
         turnLst = [0,1,1]
         locationLst = [1 for i in range(3)]
         self.patternLst.append(Pattern(turnLst = turnLst, locationLst = locationLst))
+#        self.patternLst.append(Pattern(turnLst = turnLst, locationLst = locationLst, Env=self.envMat))
 #p4
         turnLst = [0,1,0]
         locationLst = [0 for i in range(3)]
-        self.patternLst.append(Pattern(turnLst = turnLst, locationLst = locationLst))                                
-        self.displayPatternLst()
-        
+        self.patternLst.append(Pattern(turnLst = turnLst, locationLst = locationLst))          
+#        self.patternLst.append(Pattern(turnLst = turnLst, locationLst = locationLst, Env=self.envMat))                       
+        #self.displayPatternLst()
+#p5
+        turnLst = [0,0,0]
+        locationLst = [2 for i in range(3)]
+        self.patternLst.append(Pattern(turnLst = turnLst, locationLst = locationLst))
+#        self.patternLst.append(Pattern(turnLst = turnLst, locationLst = locationLst, Env=self.envMat))
+#p6 
+        turnLst = [0,0,0]
+        locationLst = [3 for i in range(3)]
+        self.patternLst.append(Pattern(turnLst = turnLst, locationLst = locationLst))
+#        self.patternLst.append(Pattern(turnLst = turnLst, locationLst = locationLst, Env=self.envMat))
+#p7
+        turnLst = [0,1,1]
+        locationLst = [2 for i in range(3)]
+        self.patternLst.append(Pattern(turnLst = turnLst, locationLst = locationLst))
+#        self.patternLst.append(Pattern(turnLst = turnLst, locationLst = locationLst, Env=self.envMat))
+#p8
+        turnLst = [1,1,1]
+        locationLst = [3 for i in range(3)]
+        self.patternLst.append(Pattern(turnLst = turnLst, locationLst = locationLst))    
+#        self.patternLst.append(Pattern(turnLst = turnLst, locationLst = locationLst, Env=self.envMat))                             
+        #self.displayPatternLst()
+                
     def displayPatternLst(self):
         for pattern in self.patternLst:
             print(pattern.dic)
+            
     def calFitness(self):
-        print('begin decode')
+#        print('begin decode')
         length = len(self.chrom)
         if(length != (self.patternMax*2+1)*self.robNum):
             print('it can not be calculated')
@@ -135,7 +161,8 @@ class Decode:
 #        print(actSeq)
 #        print(sorted(actSeq,key = lambda actUnit: actUnit[1]))        
         robState = []
-        
+        self.path.clear()
+        self.coveredGrid = []
         self.robPatternLst.clear()
         self.robPatternStepLst.clear()
         for i in range(self.robNum):
@@ -148,7 +175,7 @@ class Decode:
                 lst.append(self.chrom[i*(self.patternMax*2+1)+ 2 +j * 2])
             self.robPatternStepLst.append(lst)
 
-        print(self.robPatternLst)
+        #print(self.robPatternLst)
         
         self.robState.clear()
         for i in range(self.robNum):
@@ -159,7 +186,7 @@ class Decode:
             self.path[i].append(dic['pos'])
             self.coveredGrid.append((dic['pos'][0],dic['pos'][1]))
 
-        print(robState)
+        #print(robState)
         
         circleTime  = 0        
         while len(self.coveredGrid) < len(self.robReachSet):
@@ -177,7 +204,7 @@ class Decode:
                 if(movRobState['patternStep'] == self.robPatternStepLst[movRobID][movRobPatternSeq]):
                     if(self.robState[movRobID]['patternSeq'] < self.patternMax - 1):
                         self.robState[movRobID]['patternSeq'] = self.robState[movRobID]['patternSeq'] + 1
-                        print('pattern change',self.robState[movRobID]['patternSeq'])
+                        #print('pattern change',self.robState[movRobID]['patternSeq'])
                         movRobState['patternStep'] = 0
                 if(movRobState['step'] == 1):
                     while True:                        
@@ -186,14 +213,14 @@ class Decode:
                             break
                         if(findNextPos == False and self.robState[movRobID]['patternSeq'] == self.patternMax - 1):
                             movRobState['act'] = False
-                            print('rob ',movRobID,'is stuck')
+                            #print('rob ',movRobID,'is stuck')
                             break
                         self.robState[movRobID]['patternSeq'] = self.robState[movRobID]['patternSeq'] + 1
 #                        print('id',movRobID)
 #                        print('patternSEQ',self.robState[movRobID]['patternSeq'])
                     if(movRobState['act'] == False):
                         continue                    
-                    print('self.robState[movRobID]:',self.robState[movRobID]['pos'])
+                    #print('self.robState[movRobID]:',self.robState[movRobID]['pos'])
                     self.path[movRobID].append(self.robState[movRobID]['pos'])
                 else:
 #                    self.path[movRobID].append(self.robState[movRobID]['pos'])                    
@@ -204,9 +231,9 @@ class Decode:
         for i in range(self.robNum):
             movRobID = actSeq[i][0] 
             rob_path=self.path[movRobID]
-            print('movRobID',movRobID)
-            print('rob_path',rob_path)
-            print('rob_path_len',len(rob_path))
+            #print('movRobID',movRobID)
+            #print('rob_path',rob_path)
+            #print('rob_path_len',len(rob_path))
             rob_path_again=[]
             for index,item in enumerate(rob_path):
                 if index<len(rob_path)-1:
@@ -217,9 +244,9 @@ class Decode:
                     else:
                         rob_path_again.append(item)
                         #CloseList = []#路径列表 
-                        map2d=decode.envMat
-                        print('s_pnt',[item[0],item[1]])
-                        print('e_pnt',[rob_path[index+1][0],rob_path[index+1][1]])
+                        map2d=self.envMat
+                        #print('s_pnt',[item[0],item[1]])
+                        #print('e_pnt',[rob_path[index+1][0],rob_path[index+1][1]])
                         aStar=A.AStar(map2d,Point(item[0],item[1]),Point(rob_path[index+1][0],rob_path[index+1][1]))
                         pathList=aStar.start()
                         #rob_path_again.append(pathList)
@@ -230,8 +257,8 @@ class Decode:
                 elif index==len(rob_path)-1:
                     rob_path_again.append(item)
             self.path[movRobID]=rob_path_again
-            print(len(rob_path_again))
-            print(len(self.path[movRobID]))
+            #print(len(rob_path_again))
+            #print(len(self.path[movRobID]))
 #            print('rob_path_again',rob_path_again)
 #######################################################
                 
@@ -239,7 +266,7 @@ class Decode:
         max_path = max(self.path,key=lambda x: len(x))
         makeSpan = len(self.path[self.path.index(max_path)])
         return c_rate,makeSpan
-        print(self.path)
+        #print(self.path)
     def allRobotStuck(self):
         for i in range(self.robNum):
             if(self.robState[i]['act'] == True):
@@ -248,7 +275,7 @@ class Decode:
     def getNextPosition(self,robID):
         
         movRobPatternSeq = self.robState[robID]['patternSeq']
-#         print(self.patternLst)
+        #print('self.patternLst:\n',self.patternLst)
         movRobState = self.robState[robID] 
         movRobPatternIndex = self.robPatternLst[robID][movRobPatternSeq]
 #        print(movRobPatternIndex)
@@ -344,30 +371,44 @@ class Decode:
         f_con.close()
 
 if __name__ == '__main__':
-    decode = Decode()
+    decode = Decode('8_40_40_329_office_Cfg.txt')
     decode.addPattern()
     print('decode.envMat',decode.envMat)
+    AAA=decode.envMat
 #    decode.drawAllPatern()
+    start=time.time()
+#    decode.chrom = [1,0,500,3,10,2,10,
+#                    5,1,10,1,10,2,10,
+#                    4,2,10,0,10,2,10,
+#                    2,1,10,1,10,2,10,
+#                    3,1,10,1,10,2,10]
     decode.chrom = [1,0,500,3,10,2,10,
                     5,1,10,1,10,2,10,
                     4,2,10,0,10,2,10,
                     2,1,10,1,10,2,10,
-                    3,1,10,1,10,2,10]
+                    3,1,10,1,10,2,10,
+                    6,1,10,1,10,2,10,
+                    7,1,10,1,10,2,10,
+                    8,1,10,1,10,2,10]
     c_rate,makeSpan = decode.calFitness()
+    end=time.time()
+    print('cost.time:',end-start)
+
     print('c_rate',c_rate)
     print('makeSpan',makeSpan)
-    print(decode.robRowLst)    
+#    print('decode.robState:\n',decode.robState)    
     decode.writePath()
 #    drawPic()
 #    org_exe_name = 'D:\\py_code\\ComplexSystemIntelligentControl\\bin\\exc\\Debug\\MultiCover.exe'    
     conFileDir = './/data//'
-    fileCfgName =  '5_20_20_80_Outdoor_Cfg.txt'
+#    fileCfgName =  '5_20_20_80_Outdoor_Cfg.txt'
+    fileCfgName = '8_40_40_329_office_Cfg.txt'
     degNameCfg = conFileDir + fileCfgName
 #    proOrgStatic = subprocess.Popen([org_exe_name,degNameCfg],stdin =subprocess.PIPE,stdout = subprocess.PIPE)
 #    for line in proOrgStatic.stdout:
 #        print(line)        
-#    drawPic(fileCfgName,8,'testNothing',True)
     drawPic(fileCfgName,8,'testNothing',True)
+#    drawPic(fileCfgName,8,'testNothing',True)
 
 #==============================================================================
 # # zero means the obstacle pnt

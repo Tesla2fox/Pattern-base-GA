@@ -204,7 +204,8 @@ class Env:
                                    y= y,
                                    marker =dict(size =10),
                                    name = 'Path_' + str(i+1))
-            if(txtType):
+#            if(txtType):
+            if(False):
                 for i in range(len(x)):
                     self.annotations.append(dict(showarrow = False,
                                              x = x[i] ,y = y[i],
@@ -290,7 +291,7 @@ class Env:
 def drawPic(cfgFileName = '5_20_20_80_Outdoor_Cfg.txt',drawType = 1,
             fileName = 'nothing',
             fileType = False ):
-    py.sign_in('tesla_fox', 'HOTRQ3nIOdYUUszDIfgN')
+#    py.sign_in('tesla_fox', 'HOTRQ3nIOdYUUszDIfgN')
     conFileDir = './/data//'
     degNameCfg = conFileDir + cfgFileName
     
@@ -498,7 +499,6 @@ def drawPic(cfgFileName = '5_20_20_80_Outdoor_Cfg.txt',drawType = 1,
     
 #  case 8  draw environment and the GA_pattern path    
     if(drawType == 8):
-        print('wtf')
         env = Env(mat)
         env.addgrid()
         robLst = []
@@ -509,19 +509,16 @@ def drawPic(cfgFileName = '5_20_20_80_Outdoor_Cfg.txt',drawType = 1,
         pathCfg = Read_Cfg(pathNameCfg)
         robNum = int(pathCfg.getSingleVal('robNum'))
         pathData = []
-#        print(robNum)
         for i in range(robNum):
             path_x = []
             pathCfg.get('path_x'+str(i),path_x)
-#            print(len(path_x))
-#            print(path_x)
             pathData.append(copy.deepcopy(path_x))
             path_y = []
             pathCfg.get('path_y'+str(i),path_y)
             pathData.append(copy.deepcopy(path_y))
         env.addPath(robNum = robNum, lst = pathData)
 #            graphData.append(copy.deepcopy(graphUnit))
-        env.drawPic('./png/env_'+cfgFileName,fileType)
+        env.drawPic('./png/env_'+cfgFileName+fileName,fileType)
         
 # case 9 draw environment and test the python graph function
     if(drawType == 9):

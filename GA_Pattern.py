@@ -12,6 +12,7 @@ import plotly
 import copy
 from plotly import tools
 from env import *
+import decode as de
 
 
 
@@ -44,24 +45,31 @@ class Pattern:
         priority = 1
         for i in range(3):
             if(self.locationLst[i] == 0):
-                startPnt = (0,i + 1)
+                startPnt = (0,i+1)
+#                startPnt = (0,i+1,Env[0,i+1])
             if(self.locationLst[i] == 1):
-                startPnt = (0,-i- 1)
+                startPnt = (0,-i-1)
+#                startPnt = (0,-i-1,Env[0,-i-1])
             if(self.locationLst[i] == 2):
                 startPnt = (-i-1,0)
+#                startPnt = (-i-1,0,Env[-i-1,0])
             if(self.locationLst[i] == 3):
-                startPnt = (i + 1,0)            
+                startPnt = (i+1,0)      
+#                startPnt = (i+1,0,Env[i+1,0]) 
             lst = []
             for n in range(-i-2,i+2):
                 for m in range(-i-2,i+2):
                     if(abs(n)+abs(m) == i+1):                                                                                  
-                            lst.append((n,m))                                        
+                            lst.append((n,m))   
+#                            lst.append((n,m,Env[n,m]))                                      
 #            print('lst = ',lst)
             if(self.turnLst[i] == 1):
                 reverseType = True
             else:
-                reverseType = False                
-            sortLst = sorted(lst,key = GClockWise,reverse = reverseType)            
+                reverseType = False              
+#            print('lst',lst)
+            sortLst = sorted(lst,key = GClockWise,reverse = reverseType)     
+#            print('sortLst',sortLst)
 #            print(sortLst)
 #            print('sortedLst = ',sortLst)
             ind = sortLst.index(startPnt)
@@ -122,7 +130,9 @@ def drawPattern(dic = dict()):
 
 
 if __name__ == '__main__':
-    pattern = Pattern()
+    decode=de.Decode()
+    Env=decode.envMat
+    pattern = Pattern([1,1,1],[0,0,0])
     turnLst = [1,1,1]
     print(GClockWise([0,1]))
     print(GClockWise([0,-1]))
