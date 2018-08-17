@@ -1,0 +1,14 @@
+_________time___2018-08-18 05:27:03
+data 2_20_20_80_Outdoor_Cfg.txt makeSpan  184
+data 2_20_20_80_Outdoor_Cfg.txt c_rate  0.865625
+data2_20_20_80_Outdoor_Cfg.txt path  1 4 41 5 95 5 391 2 4 28 1 254 0 152
+_________time___2018-08-18 05:59:44
+data 2_20_20_80_Outdoor_Cfg.txt makeSpan  153
+data 2_20_20_80_Outdoor_Cfg.txt c_rate  0.740625
+data2_20_20_80_Outdoor_Cfg.txt path  1 4 42 3 54 5 371 2 0 30 2 135 1 45
+Statistics result 
+data 2_20_20_80_Outdoor_Cfg.txt meanMakeSpan  168.5
+data 2_20_20_80_Outdoor_Cfg.txt meanRate  0.803125
+data 2_20_20_80_Outdoor_Cfg.txt minMakeSpan  153
+data 2_20_20_80_Outdoor_Cfg.txt maxRate  0.865625
+___________+++_______

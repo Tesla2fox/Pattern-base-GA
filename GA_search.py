@@ -6,6 +6,7 @@ Created on Mon Jul 30 10:26:52 2018
 """
 
 from numpy import *
+import datetime
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import *
@@ -232,11 +233,13 @@ def start(fileCfgName = '6_40_40_329_office_Cfg.txt',runTimes = 0):
     return decode.chrom,c_rate,makeSpan
 
 if __name__ == '__main__':
+    strLst =['benchmarkOutdoor','benchmarkBarMaze','benchmarkCircle',
+             'benchmarkFree','benchmarkLiving','benchmarkOffice']
     conFileDir = './/data//'
-    benchMarkFile = 'benchmarkOutdoor.txt'
+    benchMarkFile = strLst[6-1] +'.txt'
     benchMarkFile  = conFileDir +benchMarkFile
-    runningData = conFileDir +'benchmarkOutdoor'+'runningData.txt'
-    runDataFile = open(runningData , 'w')
+    runningData = conFileDir +strLst[6-1]+'runningData.txt'
+    runDataFile = open(runningData , 'a')
 #    a = np.array([1,2])
 #    print(a)
     with open(benchMarkFile) as f:
@@ -250,6 +253,9 @@ if __name__ == '__main__':
                 c_rateLst = []
                 makeSpanLst = []
                 for i in range(2):
+                    nowTime=datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+#                    time_str = datetime.datetime.strftime(time1,'%Y-%m-%d %H:%M:%S')
+                    runDataFile.write('_________time___'+nowTime+'\n')                    
                     path,c_rate,makeSpan = start(fileCfgName = fileCfgName,runTimes = i)
                     c_rateLst.append(c_rate)
                     makeSpanLst.append(makeSpan)
@@ -271,6 +277,7 @@ if __name__ == '__main__':
                 writeConf(runDataFile,'data '+lineData[1]+' minMakeSpan',[minMakeSpan])
                 writeConf(runDataFile,'data '+lineData[1]+' maxRate',[maxRate])
                 runDataFile.write('___________+++_______\n')
+                runDataFile.flush();
     runDataFile.close()
 #                np.
                 
