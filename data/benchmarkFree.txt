@@ -1,0 +1,4 @@
+benchMark 2_20_20_0_Outdoor_Cfg.txt
+benchMark 4_30_30_0_Outdoor_Cfg.txt
+benchMark 6_40_40_0_Outdoor_Cfg.txt
+benchMark 8_40_40_0_Outdoor_Cfg.txt

@@ -15,7 +15,7 @@ if __name__ == '__main__':
     
 #    org_exe_name = 'D:\\py_code\\ComplexSystemIntelligentControl\\bin\\exc\\Debug\\MultiCover.exe'    
     conFileDir = 'D:\\py_code\\Pattern-base-GA\\data\\'
-    fileCfgName =  '8_30_30_242_CircularMaze_Cfg.txt'
+    fileCfgName =  '8_40_40_320_Outdoor_Cfg.txt'
 #    degNameCfg = conFileDir + fileCfgName
 #    proOrgStatic = subprocess.Popen([org_exe_name,degNameCfg],stdin =subprocess.PIPE,stdout = subprocess.PIPE)
 #    for line in proOrgStatic.stdout:

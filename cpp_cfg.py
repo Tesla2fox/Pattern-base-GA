@@ -124,8 +124,8 @@ def getNeighbor(envMat,lst = (0,0),row =20, col =20):
 
 if __name__ =='__main__':
     
-    row = 20
-    col = 20
+    row = 40
+    col = 40
     
     mat = zeros((row,col),dtype=int)
     for i in range(row):
@@ -134,10 +134,10 @@ if __name__ =='__main__':
 # zero means the obstacle pnt
 # one means the way pnt
 
-    robNum = 5
-    random.seed(100)
+    robNum = 8
+    random.seed(20)
     
-    obNum = 80
+    obNum = 0
     
     robRowLst = []
     robColLst = []
@@ -245,7 +245,10 @@ if __name__ =='__main__':
     
     writeConf(f_con,'robUnReachRowLst',robUnReachRowLst)
     writeConf(f_con,'robUnReachColLst',robUnReachColLst)
-                     
+    
+    obRowLst = robUnReachRowLst
+    obColLst = robUnReachColLst 
+     
 #==============================================================================
 #   test the edge add function 
 #==============================================================================

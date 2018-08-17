@@ -203,8 +203,8 @@ def start(fileCfgName = '6_40_40_329_office_Cfg.txt',runTimes = 0):
     Robot_NUM=decode.robNum
     model=7
     model_NUM=3
-    Gm=200
-    Np=1000
+    Gm=1000
+    Np=200
     Fangan_final_choose,Gmin=GA_search(Gm,Np,Pstart_x,Pstart_y,Robot_NUM,model,model_NUM,fileCfgName)
     print(Fangan_final_choose)
     decode = de.Decode(fileCfgName)
@@ -218,7 +218,7 @@ def start(fileCfgName = '6_40_40_329_office_Cfg.txt',runTimes = 0):
     end=time.time()
     print('cost.time:',end-start)
 
-    decode.writePath()
+#    decode.writePath()
 #    drawPic()
 #    org_exe_name = 'D:\\py_code\\ComplexSystemIntelligentControl\\bin\\exc\\Debug\\MultiCover.exe'    
 
@@ -228,15 +228,14 @@ def start(fileCfgName = '6_40_40_329_office_Cfg.txt',runTimes = 0):
 #    proOrgStatic = subprocess.Popen([org_exe_name,degNameCfg],stdin =subprocess.PIPE,stdout = subprocess.PIPE)
 #    for line in proOrgStatic.stdout:
 #        print(line)        
-    drawPic(fileCfgName,8,str(runTimes),False)
-    
-    return c_rate,makeSpan
+#    drawPic(fileCfgName,8,str(runTimes),False)    
+    return decode.chrom,c_rate,makeSpan
 
 if __name__ == '__main__':
     conFileDir = './/data//'
-    benchMarkFile = 'benchMark.txt'
+    benchMarkFile = 'benchmarkOutdoor.txt'
     benchMarkFile  = conFileDir +benchMarkFile
-    runningData = conFileDir +'benchMark'+'runningData.txt'
+    runningData = conFileDir +'benchmarkOutdoor'+'runningData.txt'
     runDataFile = open(runningData , 'w')
 #    a = np.array([1,2])
 #    print(a)
@@ -250,12 +249,13 @@ if __name__ == '__main__':
                 fileCfgName = lineData[1]
                 c_rateLst = []
                 makeSpanLst = []
-                for i in range(3):
-                    c_rate,makeSpan = start(fileCfgName = fileCfgName,runTimes = i)
+                for i in range(2):
+                    path,c_rate,makeSpan = start(fileCfgName = fileCfgName,runTimes = i)
                     c_rateLst.append(c_rate)
                     makeSpanLst.append(makeSpan)
                     writeConf(runDataFile,'data '+lineData[1]+' makeSpan',[makeSpan])
-                    writeConf(runDataFile,'data '+lineData[1]+' c_rate',[c_rate])                                                            
+                    writeConf(runDataFile,'data '+lineData[1]+' c_rate',[c_rate])
+                    writeConf(runDataFile,'data'+lineData[1]+' path',path)
 #                runDataFile()
                     print(lineData)
                     print(line)
