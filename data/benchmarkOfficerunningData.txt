@@ -1,0 +1,33 @@
+_________time___2018-08-18 05:28:21
+data 2_40_40_329_office_Cfg.txt makeSpan  686
+data 2_40_40_329_office_Cfg.txt c_rate  0.919748229740362
+data2_40_40_329_office_Cfg.txt path  1 3 87 4 15 4 234 2 0 367 1 142 4 93
+_________time___2018-08-18 10:33:54
+data 2_40_40_329_office_Cfg.txt makeSpan  697
+data 2_40_40_329_office_Cfg.txt c_rate  0.9386309992132179
+data2_40_40_329_office_Cfg.txt path  1 3 78 4 360 1 334 2 0 228 0 275 0 371
+Statistics result 
+data 2_40_40_329_office_Cfg.txt meanMakeSpan  691.5
+data 2_40_40_329_office_Cfg.txt meanRate  0.9291896144767899
+data 2_40_40_329_office_Cfg.txt minMakeSpan  686
+data 2_40_40_329_office_Cfg.txt maxRate  0.9386309992132179
+___________+++_______
+_________time___2018-08-18 16:53:09
+data 4_40_40_329_office_Cfg.txt makeSpan  386
+data 4_40_40_329_office_Cfg.txt c_rate  0.991345397324941
+data4_40_40_329_office_Cfg.txt path  4 1 238 4 61 3 399 2 0 71 5 366 2 97 1 1 240 5 172 1 347 3 1 368 1 275 2 10
+_________time___2018-08-19 00:58:22
+data 4_40_40_329_office_Cfg.txt makeSpan  396
+data 4_40_40_329_office_Cfg.txt c_rate  0.9795436664044059
+data4_40_40_329_office_Cfg.txt path  2 4 303 2 362 1 132 1 3 54 0 228 3 202 4 3 284 0 24 5 216 3 3 27 5 316 4 200
+Statistics result 
+data 4_40_40_329_office_Cfg.txt meanMakeSpan  391.0
+data 4_40_40_329_office_Cfg.txt meanRate  0.9854445318646734
+data 4_40_40_329_office_Cfg.txt minMakeSpan  386
+data 4_40_40_329_office_Cfg.txt maxRate  0.991345397324941
+___________+++_______
+_________time___2018-08-19 09:10:33
+data 6_40_40_329_office_Cfg.txt makeSpan  261
+data 6_40_40_329_office_Cfg.txt c_rate  0.987411487018096
+data6_40_40_329_office_Cfg.txt path  2 4 146 2 264 1 72 5 4 170 3 229 1 393 1 2 85 0 102 4 312 4 1 248 0 18 1 53 6 1 196 3 347 3 259 3 4 300 2 101 4 106
+_________time___2018-08-19 18:12:08

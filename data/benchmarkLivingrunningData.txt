@@ -36,3 +36,45 @@ data 2_20_20_97_livingRoom_Cfg.txt meanRate  0.995049504950495
 data 2_20_20_97_livingRoom_Cfg.txt minMakeSpan  160
 data 2_20_20_97_livingRoom_Cfg.txt maxRate  0.9966996699669967
 ___________+++_______
+_________time___2018-08-18 06:12:32
+data 4_20_20_97_livingRoom_Cfg.txt makeSpan  84
+data 4_20_20_97_livingRoom_Cfg.txt c_rate  1.0
+data4_20_20_97_livingRoom_Cfg.txt path  2 2 307 3 157 4 235 3 0 87 1 228 4 193 4 3 50 2 398 2 180 1 0 211 3 16 2 333
+_________time___2018-08-18 06:37:15
+data 4_20_20_97_livingRoom_Cfg.txt makeSpan  82
+data 4_20_20_97_livingRoom_Cfg.txt c_rate  1.0
+data4_20_20_97_livingRoom_Cfg.txt path  2 2 69 4 327 0 228 3 0 100 2 171 0 125 4 3 45 1 346 4 160 1 0 166 4 276 2 324
+Statistics result 
+data 4_20_20_97_livingRoom_Cfg.txt meanMakeSpan  83.0
+data 4_20_20_97_livingRoom_Cfg.txt meanRate  1.0
+data 4_20_20_97_livingRoom_Cfg.txt minMakeSpan  82
+data 4_20_20_97_livingRoom_Cfg.txt maxRate  1.0
+___________+++_______
+_________time___2018-08-18 12:14:54
+data 2_20_20_97_livingRoom_Cfg.txt makeSpan  161
+data 2_20_20_97_livingRoom_Cfg.txt c_rate  0.9966996699669967
+data2_20_20_97_livingRoom_Cfg.txt path  1 1 88 1 14 5 62 2 3 62 5 1 1 234
+_________time___2018-08-18 12:43:06
+data 2_20_20_97_livingRoom_Cfg.txt makeSpan  163
+data 2_20_20_97_livingRoom_Cfg.txt c_rate  0.9900990099009901
+data2_20_20_97_livingRoom_Cfg.txt path  1 4 12 2 47 0 63 2 3 45 1 292 1 199
+Statistics result 
+data 2_20_20_97_livingRoom_Cfg.txt meanMakeSpan  162.0
+data 2_20_20_97_livingRoom_Cfg.txt meanRate  0.9933993399339933
+data 2_20_20_97_livingRoom_Cfg.txt minMakeSpan  161
+data 2_20_20_97_livingRoom_Cfg.txt maxRate  0.9966996699669967
+___________+++_______
+_________time___2018-08-18 13:09:21
+data 4_20_20_97_livingRoom_Cfg.txt makeSpan  86
+data 4_20_20_97_livingRoom_Cfg.txt c_rate  1.0
+data4_20_20_97_livingRoom_Cfg.txt path  3 2 210 1 261 1 384 2 0 66 3 285 5 294 4 0 3 3 208 4 71 1 0 300 3 286 4 39
+_________time___2018-08-18 14:01:03
+data 4_20_20_97_livingRoom_Cfg.txt makeSpan  110
+data 4_20_20_97_livingRoom_Cfg.txt c_rate  0.9900990099009901
+data4_20_20_97_livingRoom_Cfg.txt path  1 0 5 2 242 3 156 2 4 299 1 345 5 147 4 1 168 1 278 2 360 3 0 118 3 385 2 380
+Statistics result 
+data 4_20_20_97_livingRoom_Cfg.txt meanMakeSpan  98.0
+data 4_20_20_97_livingRoom_Cfg.txt meanRate  0.995049504950495
+data 4_20_20_97_livingRoom_Cfg.txt minMakeSpan  86
+data 4_20_20_97_livingRoom_Cfg.txt maxRate  1.0
+___________+++_______

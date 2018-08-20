@@ -1,0 +1,11 @@
+_________time___2018-08-19 12:11:09
+data 8_40_40_329_office_Cfg.txt makeSpan  211
+data 8_40_40_329_office_Cfg.txt c_rate  0.988198269079465
+data8_40_40_329_office_Cfg.txt path  2 3 169 1 187 2 137 1 0 105 3 399 3 81 5 2 279 5 166 4 296 4 4 145 1 198 4 185 8 1 147 3 195 0 263 6 2 9 4 65 1 337 7 3 82 4 210 3 11 3 3 303 5 51 3 324
+Statistics result 
+data 8_40_40_329_office_Cfg.txt meanMakeSpan  211.0
+data 8_40_40_329_office_Cfg.txt meanRate  0.988198269079465
+data 8_40_40_329_office_Cfg.txt minMakeSpan  211
+data 8_40_40_329_office_Cfg.txt maxRate  0.988198269079465
+___________+++_______
+_________time___2018-08-19 21:26:47

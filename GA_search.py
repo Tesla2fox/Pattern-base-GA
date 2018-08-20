@@ -234,11 +234,12 @@ def start(fileCfgName = '6_40_40_329_office_Cfg.txt',runTimes = 0):
 
 if __name__ == '__main__':
     strLst =['benchmarkOutdoor','benchmarkBarMaze','benchmarkCircle',
-             'benchmarkFree','benchmarkLiving','benchmarkOffice']
+             'benchmarkFree','benchmarkLiving','benchmarkOffice',
+             'reverseOutdoor','reverseOffice']
     conFileDir = './/data//'
-    benchMarkFile = strLst[6-1] +'.txt'
+    benchMarkFile = strLst[4-1] +'.txt'
     benchMarkFile  = conFileDir +benchMarkFile
-    runningData = conFileDir +strLst[6-1]+'runningData.txt'
+    runningData = conFileDir +strLst[4-1]+'runningData.txt'
     runDataFile = open(runningData , 'a')
 #    a = np.array([1,2])
 #    print(a)
@@ -252,7 +253,7 @@ if __name__ == '__main__':
                 fileCfgName = lineData[1]
                 c_rateLst = []
                 makeSpanLst = []
-                for i in range(2):
+                for i in range(1):
                     nowTime=datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 #                    time_str = datetime.datetime.strftime(time1,'%Y-%m-%d %H:%M:%S')
                     runDataFile.write('_________time___'+nowTime+'\n')                    
