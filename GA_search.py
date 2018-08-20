@@ -262,7 +262,7 @@ if __name__ == '__main__':
                     makeSpanLst.append(makeSpan)
                     writeConf(runDataFile,'data '+lineData[1]+' makeSpan',[makeSpan])
                     writeConf(runDataFile,'data '+lineData[1]+' c_rate',[c_rate])
-                    writeConf(runDataFile,'data'+lineData[1]+' path',path)
+                    writeConf(runDataFile,'data '+lineData[1]+' path',path)
 #                runDataFile()
                     print(lineData)
                     print(line)
