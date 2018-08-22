@@ -11,7 +11,8 @@ from plotly import tools
 from numpy import *
 import numpy as np
 import Astar as A
-
+from collections import Counter
+ 
 class Point:
     """
     表示一个点
@@ -37,6 +38,7 @@ class Decode:
         self.robReachRowLst = []
         self.robReachColLst = []
         self.robReachSet = set()
+        self.repeat_cover = 0
 #==============================================================================
 # 
 #==============================================================================
@@ -265,8 +267,31 @@ class Decode:
         c_rate = len(set(self.coveredGrid))/len(self.robReachSet)
         max_path = max(self.path,key=lambda x: len(x))
         makeSpan = len(self.path[self.path.index(max_path)])
+        
         return c_rate,makeSpan
         #print(self.path)
+    def pathRepeatCover(self):
+        print(Counter(self.path[0]))
+        c = Counter(self.path[0])
+#        range()
+        for i in range(1,self.robNum):
+            c.update(self.path[i])
+        repeatCover = 0
+        for k in c.values():
+            if(k!=1):
+                repeatCover = repeatCover + k - 1
+#                print(k)
+#        print(repeatCover)
+        sumPathLength = 0
+        for i in range(self.robNum):
+            sumPathLength  =  sumPathLength + len(self.path[i])
+        r_rate = repeatCover/sumPathLength
+        
+        return r_rate
+#            print(k)
+    def calLowBound(self):
+        lowBound = float(len(self.robReachSet)) / float(self.robNum)
+        return lowBound        
     def allRobotStuck(self):
         for i in range(self.robNum):
             if(self.robState[i]['act'] == True):
