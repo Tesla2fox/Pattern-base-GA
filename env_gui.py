@@ -11,8 +11,8 @@ from cpp_cfg import *
 
 
 
-g_row = 32
-g_col = 32
+g_row = 30
+g_col = 30
 
 mat = ones((g_row,g_col),dtype=int)
 

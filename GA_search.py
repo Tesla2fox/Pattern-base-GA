@@ -237,9 +237,9 @@ if __name__ == '__main__':
              'benchmarkFree','benchmarkLiving','benchmarkOffice',
              'reverseOutdoor','reverseOffice']
     conFileDir = './/data//'
-    benchMarkFile = strLst[4-1] +'.txt'
+    benchMarkFile = strLst[7-1] +'.txt'
     benchMarkFile  = conFileDir +benchMarkFile
-    runningData = conFileDir +strLst[4-1]+'runningData.txt'
+    runningData = conFileDir +strLst[7-1]+'runningData.txt'
     runDataFile = open(runningData , 'a')
 #    a = np.array([1,2])
 #    print(a)
