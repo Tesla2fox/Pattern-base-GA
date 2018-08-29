@@ -9,6 +9,7 @@ Created on Mon Aug 20 22:48:07 2018
 import decode as dc
 from cpp_cfg import *
 import numpy as np
+from read_cfg import *
 #from decode import*
 
 
@@ -38,6 +39,25 @@ def Etype2str(x):
         str_x = str_x  +'E'+str(v_num)
     return str_x
 
+# -*- coding: utf-8 -*-   
+      
+import os  
+      
+def file_name(file_dir):   
+    for root, dirs, files in os.walk(file_dir):  
+        print(root) #当前目录路径  
+        print(dirs) #当前路径下所有子目录  
+        print(files) #当前路径下所有非目录子文件
+    return root,files
+#    print(dataNameSp)
+#    print(pathSum)
+#    print(ct_lst)
+#    print(astc_ms)
+#    readCfg.getSingleVal('makeSpan',astc_ms)
+    
+    
+
+
 if __name__ == '__main__':
     
     
@@ -49,7 +69,10 @@ if __name__ == '__main__':
 
     strLst =['benchmarkOutdoor','benchmarkBarMaze','benchmarkCircle',
              'benchmarkFree','benchmarkLiving','benchmarkOffice',
-             'reverseOutdoor','reverseOffice']
+             'reverseOutdoor','reverseOffice',
+             'zhanPCData//benchmarkOutdoor','zhanPCData//benchmarkBarMaze','zhanPCData//benchmarkCircle',
+             'zhanPCData//benchmarkFree','zhanPCData//benchmarkLiving','zhanPCData//benchmarkOffice',
+             'zhanPCData//reverseOutdoor','zhanPCData//reverseOffice']
     print('begin data process')    
     for s_name in strLst:
         conFileDir = './/data//'
@@ -75,9 +98,28 @@ if __name__ == '__main__':
                            path = [int(x) for x in lineData[2:]]
                            pathLst.append(path)
                            confileLst.append(lineData[0])
+
+    root,files = file_name('D:\py_code\Pattern-base-GA\data\GAComp')
+    astc_dic = dict()
+    for file in files:
+        readCfg = Read_Cfg(root+'\\'+file)
+        print(root+'\\'+file)
+        astc_ms = readCfg.getSingleVal('makeSpan')
+        robNum = int(readCfg.getSingleVal('robNum'))
+        pathSum = 0 
+        ct_lst = []
+        for i in range(robNum):
+            str_path = 'path_len'+str(i)
+            path_len = readCfg.getSingleVal(str_path)
+            ct_lst.append(path_len)
+            pathSum = pathSum + path_len
+        dataNameSp = file.split('auctionSTCEstDeg')
+        dataNameSp[0] = dataNameSp[0] +'.txt'
+        astc_dic[dataNameSp[0]] = (astc_ms,pathSum)
     
     dataDic = dict()
     lowBoundDic = dict()
+    reachableDic = dict()
     for i in range(len(confileLst)):
         decode  = dc.Decode(cfgFileName = confileLst[i])
         decode.addPattern()
@@ -91,6 +133,7 @@ if __name__ == '__main__':
             dataDic[confileLst[i]] = [(makeSpan,c_rate,r_rate)]
             lowBound = decode.calLowBound()
             lowBoundDic[confileLst[i]] = lowBound
+            reachableDic[confileLst[i]] = len(decode.robReachSet)
         print(c_rate)
         print(makeSpan)
     dataProCfg = conFileDir +'dataPro.txt'
@@ -121,11 +164,27 @@ if __name__ == '__main__':
 
         writeConf(dataFile,fileName+' times', [len(dataLst)])
         writeConf(dataFile,fileName+' makeSpan',ms_lst)
-        writeConf(dataFile,fileName+' c_lst',c_lst)
-        writeConf(dataFile,fileName+' r_lst',r_lst)
+        writeConf(dataFile,fileName+' c_lst',cr_lst)
+        writeConf(dataFile,fileName+' r_lst',rc_lst)
         writeConf(dataFile,fileName+' lowBound',[lowBoundDic[fileName]])
+        writeConf(dataFile,fileName + ' reachNum', [reachableDic[fileName]])
         
+        astc_ms = astc_dic[fileName][0]
+        astc_rc = float(astc_dic[fileName][1] - reachableDic[fileName])/float(reachableDic[fileName])
         
+        str_LB = Etype2str(lowBoundDic[fileName])
+        dataFile.write(fileName + ' E_LB '+str_LB+'\n')
+        
+        dataFile.write('\n')
+        writeConf(dataFile, fileName + ' astc_MS', [astc_ms])
+        writeConf(dataFile, fileName + ' astc_RC', [astc_rc])
+        
+        str_a_ms = Etype2str(astc_ms)
+        str_a_rc = Etype2str(astc_rc)
+        dataFile.write(fileName + ' E_astc_MS '+str_a_ms+'\n')
+        dataFile.write(fileName + ' E_astc_RC '+str_a_rc+'\n')
+        dataFile.write('\n')
+                
         writeConf(dataFile,fileName+' mean_MS',[ms_mean])
         writeConf(dataFile,fileName+' std_MS',[ms_std])
         str_mean = Etype2str(ms_mean)

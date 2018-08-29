@@ -1,160 +1,30 @@
-_________time___2018-08-18 05:24:16
-_________time___2018-08-18 05:27:36
-data 2_30_30_153_barMaze_Cfg.txt makeSpan  276
-data 2_30_30_153_barMaze_Cfg.txt c_rate  1.0
-data2_30_30_153_barMaze_Cfg.txt path  1 2 143 4 307 2 218 2 0 168 1 148 4 181 3 3 144 2 335 5 131
-_________time___2018-08-18 07:45:27
-data 2_30_30_153_barMaze_Cfg.txt makeSpan  285
-data 2_30_30_153_barMaze_Cfg.txt c_rate  1.0
-data2_30_30_153_barMaze_Cfg.txt path  2 2 101 3 153 1 230 1 4 59 3 106 5 310 3 2 55 1 287 5 104
+_________time___2018-08-23 22:22:11
+data 2_30_30_153_barMaze_Cfg.txt makeSpan  287
+data 2_30_30_153_barMaze_Cfg.txt c_rate  0.9811827956989247
+data 2_30_30_153_barMaze_Cfg.txt path  1 1 366 5 87 1 238 2 0 5 3 155 0 241 3 1 49 3 3 2 380
 Statistics result 
-data 2_30_30_153_barMaze_Cfg.txt meanMakeSpan  280.5
-data 2_30_30_153_barMaze_Cfg.txt meanRate  1.0
-data 2_30_30_153_barMaze_Cfg.txt minMakeSpan  276
-data 2_30_30_153_barMaze_Cfg.txt maxRate  1.0
+data 2_30_30_153_barMaze_Cfg.txt meanMakeSpan  287.0
+data 2_30_30_153_barMaze_Cfg.txt meanRate  0.9811827956989247
+data 2_30_30_153_barMaze_Cfg.txt minMakeSpan  287
+data 2_30_30_153_barMaze_Cfg.txt maxRate  0.9811827956989247
 ___________+++_______
-_________time___2018-08-18 10:31:30
-_________time___2018-08-18 12:15:27
-data 2_30_30_153_barMaze_Cfg.txt makeSpan  282
-data 2_30_30_153_barMaze_Cfg.txt c_rate  1.0
-data2_30_30_153_barMaze_Cfg.txt path  2 2 168 5 213 2 370 1 0 250 4 30 2 398 3 3 227 2 320 4 320
-_________time___2018-08-18 15:17:35
-data 2_30_30_153_barMaze_Cfg.txt makeSpan  275
-data 2_30_30_153_barMaze_Cfg.txt c_rate  1.0
-data2_30_30_153_barMaze_Cfg.txt path  1 2 294 2 120 4 158 2 0 10 2 110 0 163 3 3 124 1 330 5 125
-Statistics result 
-data 2_30_30_153_barMaze_Cfg.txt meanMakeSpan  278.5
-data 2_30_30_153_barMaze_Cfg.txt meanRate  1.0
-data 2_30_30_153_barMaze_Cfg.txt minMakeSpan  275
-data 2_30_30_153_barMaze_Cfg.txt maxRate  1.0
-___________+++_______
-_________time___2018-08-18 12:49:03
-data 2_30_30_153_barMaze_Cfg.txt makeSpan  280
-data 2_30_30_153_barMaze_Cfg.txt c_rate  1.0
-data2_30_30_153_barMaze_Cfg.txt path  1 2 270 2 254 0 350 2 3 13 5 120 2 305 3 3 3 0 194 0 249
-_________time___2018-08-18 16:14:06
-data 2_30_30_153_barMaze_Cfg.txt makeSpan  265
-data 2_30_30_153_barMaze_Cfg.txt c_rate  0.989247311827957
-data2_30_30_153_barMaze_Cfg.txt path  1 2 296 1 256 0 15 2 3 15 5 64 1 257 3 3 204 0 77 3 48
-Statistics result 
-data 2_30_30_153_barMaze_Cfg.txt meanMakeSpan  272.5
-data 2_30_30_153_barMaze_Cfg.txt meanRate  0.9946236559139785
-data 2_30_30_153_barMaze_Cfg.txt minMakeSpan  265
-data 2_30_30_153_barMaze_Cfg.txt maxRate  1.0
-___________+++_______
-_________time___2018-08-18 17:56:23
-data 4_30_30_153_barMaze_Cfg.txt makeSpan  207
-data 4_30_30_153_barMaze_Cfg.txt c_rate  0.9946236559139785
-data4_30_30_153_barMaze_Cfg.txt path  1 1 82 2 109 2 219 3 0 16 2 215 5 32 4 3 358 5 336 1 266 2 3 43 1 248 1 3
-_________time___2018-08-18 21:19:09
-data 4_30_30_153_barMaze_Cfg.txt makeSpan  204
+_________time___2018-08-24 00:34:43
+data 4_30_30_153_barMaze_Cfg.txt makeSpan  226
 data 4_30_30_153_barMaze_Cfg.txt c_rate  1.0
-data4_30_30_153_barMaze_Cfg.txt path  1 0 2 2 399 3 301 3 5 16 1 150 4 97 4 1 77 4 307 5 72 2 2 132 5 265 3 93
+data 4_30_30_153_barMaze_Cfg.txt path  2 1 235 4 60 3 288 4 0 146 1 121 5 70 3 3 333 0 361 0 352 1 1 155 2 186 4 39
 Statistics result 
-data 4_30_30_153_barMaze_Cfg.txt meanMakeSpan  205.5
-data 4_30_30_153_barMaze_Cfg.txt meanRate  0.9973118279569892
-data 4_30_30_153_barMaze_Cfg.txt minMakeSpan  204
-data 4_30_30_153_barMaze_Cfg.txt maxRate  1.0
-___________+++_______
-_________time___2018-08-18 19:56:49
-data 4_30_30_153_barMaze_Cfg.txt makeSpan  207
-data 4_30_30_153_barMaze_Cfg.txt c_rate  0.9946236559139785
-data4_30_30_153_barMaze_Cfg.txt path  1 1 212 1 179 2 267 3 5 16 2 398 3 180 2 3 79 1 51 0 164 4 1 88 1 367 3 219
-_________time___2018-08-18 23:05:29
-data 4_30_30_153_barMaze_Cfg.txt makeSpan  203
-data 4_30_30_153_barMaze_Cfg.txt c_rate  0.989247311827957
-data4_30_30_153_barMaze_Cfg.txt path  1 2 109 1 152 2 138 4 0 22 2 122 4 106 3 3 123 4 46 0 55 2 5 324 3 118 2 171
-Statistics result 
-data 4_30_30_153_barMaze_Cfg.txt meanMakeSpan  205.0
-data 4_30_30_153_barMaze_Cfg.txt meanRate  0.9919354838709677
-data 4_30_30_153_barMaze_Cfg.txt minMakeSpan  203
-data 4_30_30_153_barMaze_Cfg.txt maxRate  0.9946236559139785
-___________+++_______
-_________time___2018-08-19 00:36:45
-data 6_30_30_153_barMaze_Cfg.txt makeSpan  136
-data 6_30_30_153_barMaze_Cfg.txt c_rate  1.0013440860215055
-data6_30_30_153_barMaze_Cfg.txt path  5 4 30 3 377 5 30 4 4 59 3 128 3 218 1 3 5 0 99 5 384 2 3 110 2 265 2 296 3 5 1 1 370 2 309 6 2 154 3 393 0 175
-_________time___2018-08-19 03:25:25
-data 6_30_30_153_barMaze_Cfg.txt makeSpan  137
-data 6_30_30_153_barMaze_Cfg.txt c_rate  1.0
-data6_30_30_153_barMaze_Cfg.txt path  5 0 67 1 93 2 121 1 3 386 5 145 1 8 6 2 45 3 44 0 266 3 4 203 0 114 0 309 2 1 38 0 38 3 26 4 5 133 2 395 5 230
-Statistics result 
-data 6_30_30_153_barMaze_Cfg.txt meanMakeSpan  136.5
-data 6_30_30_153_barMaze_Cfg.txt meanRate  1.0006720430107527
-data 6_30_30_153_barMaze_Cfg.txt minMakeSpan  136
-data 6_30_30_153_barMaze_Cfg.txt maxRate  1.0013440860215055
-___________+++_______
-_________time___2018-08-19 02:08:17
-data 6_30_30_153_barMaze_Cfg.txt makeSpan  141
-data 6_30_30_153_barMaze_Cfg.txt c_rate  1.0
-data6_30_30_153_barMaze_Cfg.txt path  1 2 190 2 224 5 185 6 3 129 3 334 5 249 5 0 62 2 155 0 253 4 3 243 4 318 1 211 3 2 1 0 220 1 255 2 5 335 1 284 4 45
-_________time___2018-08-19 05:56:55
-data 6_30_30_153_barMaze_Cfg.txt makeSpan  136
-data 6_30_30_153_barMaze_Cfg.txt c_rate  1.0013440860215055
-data6_30_30_153_barMaze_Cfg.txt path  4 2 239 2 187 1 190 5 5 18 0 29 1 82 2 2 58 5 11 2 36 3 5 79 0 122 4 323 1 2 223 2 392 0 374 6 4 56 3 379 4 41
-Statistics result 
-data 6_30_30_153_barMaze_Cfg.txt meanMakeSpan  138.5
-data 6_30_30_153_barMaze_Cfg.txt meanRate  1.0006720430107527
-data 6_30_30_153_barMaze_Cfg.txt minMakeSpan  136
-data 6_30_30_153_barMaze_Cfg.txt maxRate  1.0013440860215055
-___________+++_______
-_________time___2018-08-19 12:11:30
-data 2_30_30_153_barMaze_Cfg.txt makeSpan  279
-data 2_30_30_153_barMaze_Cfg.txt c_rate  0.9986559139784946
-data2_30_30_153_barMaze_Cfg.txt path  1 2 315 3 109 5 366 2 3 18 4 293 2 309 3 2 385 1 59 4 348
-Statistics result 
-data 2_30_30_153_barMaze_Cfg.txt meanMakeSpan  279.0
-data 2_30_30_153_barMaze_Cfg.txt meanRate  0.9986559139784946
-data 2_30_30_153_barMaze_Cfg.txt minMakeSpan  279
-data 2_30_30_153_barMaze_Cfg.txt maxRate  0.9986559139784946
-___________+++_______
-_________time___2018-08-19 15:43:36
-data 4_30_30_153_barMaze_Cfg.txt makeSpan  209
-data 4_30_30_153_barMaze_Cfg.txt c_rate  1.0
-data4_30_30_153_barMaze_Cfg.txt path  1 2 165 3 193 3 230 3 4 14 0 10 1 180 4 1 88 4 381 5 358 2 3 87 3 244 2 353
-Statistics result 
-data 4_30_30_153_barMaze_Cfg.txt meanMakeSpan  209.0
+data 4_30_30_153_barMaze_Cfg.txt meanMakeSpan  226.0
 data 4_30_30_153_barMaze_Cfg.txt meanRate  1.0
-data 4_30_30_153_barMaze_Cfg.txt minMakeSpan  209
+data 4_30_30_153_barMaze_Cfg.txt minMakeSpan  226
 data 4_30_30_153_barMaze_Cfg.txt maxRate  1.0
 ___________+++_______
-_________time___2018-08-19 19:41:09
-data 6_30_30_153_barMaze_Cfg.txt makeSpan  136
-data 6_30_30_153_barMaze_Cfg.txt c_rate  1.0
-data6_30_30_153_barMaze_Cfg.txt path  1 2 305 0 189 5 359 6 0 203 5 244 3 259 2 1 89 4 235 5 213 4 5 20 3 78 2 92 5 2 291 0 123 5 179 3 4 276 4 57 2 102
+_________time___2018-08-24 03:09:49
+data 6_30_30_153_barMaze_Cfg.txt makeSpan  197
+data 6_30_30_153_barMaze_Cfg.txt c_rate  0.9825268817204301
+data 6_30_30_153_barMaze_Cfg.txt path  6 5 116 3 297 0 101 2 3 221 0 354 5 323 1 0 34 3 110 0 377 5 0 4 1 395 1 362 4 2 349 1 160 4 312 3 1 369 0 222 1 117
 Statistics result 
-data 6_30_30_153_barMaze_Cfg.txt meanMakeSpan  136.0
-data 6_30_30_153_barMaze_Cfg.txt meanRate  1.0
-data 6_30_30_153_barMaze_Cfg.txt minMakeSpan  136
-data 6_30_30_153_barMaze_Cfg.txt maxRate  1.0
-___________+++_______
-_________time___2018-08-20 20:52:46
-data 2_30_30_153_barMaze_Cfg.txt makeSpan  260
-data 2_30_30_153_barMaze_Cfg.txt c_rate  0.989247311827957
-data2_30_30_153_barMaze_Cfg.txt path  3 2 95 4 254 0 4 1 0 1 1 207 4 351 2 3 124 0 140 0 54
-Statistics result 
-data 2_30_30_153_barMaze_Cfg.txt meanMakeSpan  260.0
-data 2_30_30_153_barMaze_Cfg.txt meanRate  0.989247311827957
-data 2_30_30_153_barMaze_Cfg.txt minMakeSpan  260
-data 2_30_30_153_barMaze_Cfg.txt maxRate  0.989247311827957
-___________+++_______
-_________time___2018-08-20 22:34:51
-data 4_30_30_153_barMaze_Cfg.txt makeSpan  222
-data 4_30_30_153_barMaze_Cfg.txt c_rate  1.0
-data4_30_30_153_barMaze_Cfg.txt path  2 2 58 5 49 2 82 3 0 80 2 130 0 199 1 3 223 4 191 5 212 4 4 366 1 61 2 157
-Statistics result 
-data 4_30_30_153_barMaze_Cfg.txt meanMakeSpan  222.0
-data 4_30_30_153_barMaze_Cfg.txt meanRate  1.0
-data 4_30_30_153_barMaze_Cfg.txt minMakeSpan  222
-data 4_30_30_153_barMaze_Cfg.txt maxRate  1.0
-___________+++_______
-_________time___2018-08-21 01:47:58
-data 6_30_30_153_barMaze_Cfg.txt makeSpan  137
-data 6_30_30_153_barMaze_Cfg.txt c_rate  1.0
-data6_30_30_153_barMaze_Cfg.txt path  5 4 14 2 200 2 277 2 0 346 5 376 5 18 6 1 209 4 91 2 248 4 1 58 3 175 4 377 3 2 110 1 361 3 107 1 4 346 2 162 1 397
-Statistics result 
-data 6_30_30_153_barMaze_Cfg.txt meanMakeSpan  137.0
-data 6_30_30_153_barMaze_Cfg.txt meanRate  1.0
-data 6_30_30_153_barMaze_Cfg.txt minMakeSpan  137
-data 6_30_30_153_barMaze_Cfg.txt maxRate  1.0
+data 6_30_30_153_barMaze_Cfg.txt meanMakeSpan  197.0
+data 6_30_30_153_barMaze_Cfg.txt meanRate  0.9825268817204301
+data 6_30_30_153_barMaze_Cfg.txt minMakeSpan  197
+data 6_30_30_153_barMaze_Cfg.txt maxRate  0.9825268817204301
 ___________+++_______

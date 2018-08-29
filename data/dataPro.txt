@@ -1,211 +1,306 @@
 ____CR = coverage rate_    RC = repeat coverage __
-2_20_20_80_Outdoor_Cfg.txt times  7
-2_20_20_80_Outdoor_Cfg.txt makeSpan  184 153 210 161 206 170 194
-2_20_20_80_Outdoor_Cfg.txt c_lst 
-2_20_20_80_Outdoor_Cfg.txt r_lst 
+2_20_20_80_Outdoor_Cfg.txt times  16
+2_20_20_80_Outdoor_Cfg.txt makeSpan  184 153 210 161 206 170 194 184 153 175 200 187 174 201 156 424
+2_20_20_80_Outdoor_Cfg.txt c_lst  0.865625 0.740625 0.91875 0.7375 0.925 0.846875 0.88125 0.865625 0.740625 0.8 0.878125 0.809375 0.778125 0.875 0.71875 0.928125
+2_20_20_80_Outdoor_Cfg.txt r_lst  0.23626373626373626 0.21122112211221122 0.2891566265060241 0.24126984126984127 0.2749391727493917 0.19287833827893175 0.2630208333333333 0.23626373626373626 0.21122112211221122 0.24571428571428572 0.2781954887218045 0.3002680965147453 0.23615160349854228 0.24598930481283424 0.23548387096774193 0.36401673640167365
 2_20_20_80_Outdoor_Cfg.txt lowBound  160.0
-2_20_20_80_Outdoor_Cfg.txt mean_MS  182.571428571
-2_20_20_80_Outdoor_Cfg.txt std_MS  20.4650024806
-2_20_20_80_Outdoor_Cfg.txt E_mean_MS 1.826E+2
-2_20_20_80_Outdoor_Cfg.txt E_std_MS 2.047E+1
-2_20_20_80_Outdoor_Cfg.txt mean_CR  0.845089285714
-2_20_20_80_Outdoor_Cfg.txt std_CR  0.0717459466963
-2_20_20_80_Outdoor_Cfg.txt E_mean_CR 8.451E-1
-2_20_20_80_Outdoor_Cfg.txt E_std_CR 7.175E-2
-2_20_20_80_Outdoor_Cfg.txt mean_RC  0.244107095788
-2_20_20_80_Outdoor_Cfg.txt std_RC  0.0318775510306
-2_20_20_80_Outdoor_Cfg.txt E_mean_RC 2.441E-1
-2_20_20_80_Outdoor_Cfg.txt E_std_RC 3.188E-2
+2_20_20_80_Outdoor_Cfg.txt reachNum  320
+2_20_20_80_Outdoor_Cfg.txt E_LB 1.6E+2
+2_20_20_80_Outdoor_Cfg.txt astc_MS S  222.0
+2_20_20_80_Outdoor_Cfg.txt astc_RC  0.346875
+2_20_20_80_Outdoor_Cfg.txt E_astc_MS 2.22E+2
+2_20_20_80_Outdoor_Cfg.txt E_astc_RC 3.469E-1
+
+2_20_20_80_Outdoor_Cfg.txt mean_MS  195.75
+2_20_20_80_Outdoor_Cfg.txt std_MS  61.65275744036109
+2_20_20_80_Outdoor_Cfg.txt E_mean_MS 1.958E+2
+2_20_20_80_Outdoor_Cfg.txt E_std_MS 6.165E+1
+2_20_20_80_Outdoor_Cfg.txt mean_CR  0.8318359375
+2_20_20_80_Outdoor_Cfg.txt std_CR  0.06945851840349457
+2_20_20_80_Outdoor_Cfg.txt E_mean_CR 8.318E-1
+2_20_20_80_Outdoor_Cfg.txt E_std_CR 6.946E-2
+2_20_20_80_Outdoor_Cfg.txt mean_RC  0.2538783697200653
+2_20_20_80_Outdoor_Cfg.txt std_RC  0.03997404059572643
+2_20_20_80_Outdoor_Cfg.txt E_mean_RC 2.539E-1
+2_20_20_80_Outdoor_Cfg.txt E_std_RC 3.997E-2
 _______
-4_30_30_160_Outdoor_Cfg.txt times  7
-4_30_30_160_Outdoor_Cfg.txt makeSpan  248 241 248 234 256 249 231
-4_30_30_160_Outdoor_Cfg.txt c_lst 
-4_30_30_160_Outdoor_Cfg.txt r_lst 
+4_30_30_160_Outdoor_Cfg.txt times  14
+4_30_30_160_Outdoor_Cfg.txt makeSpan  248 241 248 234 256 249 231 246 254 229 241 248 232 251
+4_30_30_160_Outdoor_Cfg.txt c_lst  0.983739837398374 0.983739837398374 0.981029810298103 0.9579945799457995 0.9823848238482384 0.983739837398374 0.9579945799457995 0.967479674796748 0.9796747967479674 0.967479674796748 0.9715447154471545 0.975609756097561 0.9688346883468835 0.9878048780487805
+4_30_30_160_Outdoor_Cfg.txt r_lst  0.24033437826541273 0.2429614181438999 0.25051546391752577 0.23235613463626492 0.24557752341311134 0.2553846153846154 0.22562979189485213 0.24686192468619247 0.2813121272365805 0.21342134213421343 0.2431578947368421 0.25516528925619836 0.21686746987951808 0.2553626149131767
 4_30_30_160_Outdoor_Cfg.txt lowBound  184.5
-4_30_30_160_Outdoor_Cfg.txt mean_MS  243.857142857
-4_30_30_160_Outdoor_Cfg.txt std_MS  8.27092275779
-4_30_30_160_Outdoor_Cfg.txt E_mean_MS 2.439E+2
-4_30_30_160_Outdoor_Cfg.txt E_std_MS 8.271E+0
-4_30_30_160_Outdoor_Cfg.txt mean_CR  0.975803329462
-4_30_30_160_Outdoor_Cfg.txt std_CR  0.0113004409751
-4_30_30_160_Outdoor_Cfg.txt E_mean_CR 9.758E-1
-4_30_30_160_Outdoor_Cfg.txt E_std_CR 1.13E-2
-4_30_30_160_Outdoor_Cfg.txt mean_RC  0.241822760808
-4_30_30_160_Outdoor_Cfg.txt std_RC  0.00947874543799
-4_30_30_160_Outdoor_Cfg.txt E_mean_RC 2.418E-1
-4_30_30_160_Outdoor_Cfg.txt E_std_RC 9.479E-3
+4_30_30_160_Outdoor_Cfg.txt reachNum  738
+4_30_30_160_Outdoor_Cfg.txt E_LB 1.845E+2
+
+4_30_30_160_Outdoor_Cfg.txt astc_MS  244.0
+4_30_30_160_Outdoor_Cfg.txt astc_RC  0.2682926829268293
+4_30_30_160_Outdoor_Cfg.txt E_astc_MS 2.44E+2
+4_30_30_160_Outdoor_Cfg.txt E_astc_RC 2.683E-1
+
+4_30_30_160_Outdoor_Cfg.txt mean_MS  243.42857142857142
+4_30_30_160_Outdoor_Cfg.txt std_MS  8.541614816500998
+4_30_30_160_Outdoor_Cfg.txt E_mean_MS 2.434E+2
+4_30_30_160_Outdoor_Cfg.txt E_std_MS 8.542E+0
+4_30_30_160_Outdoor_Cfg.txt mean_CR  0.9749322493224932
+4_30_30_160_Outdoor_Cfg.txt std_CR  0.009440051223582362
+4_30_30_160_Outdoor_Cfg.txt E_mean_CR 9.749E-1
+4_30_30_160_Outdoor_Cfg.txt E_std_CR 9.44E-3
+4_30_30_160_Outdoor_Cfg.txt mean_RC  0.2432077134641717
+4_30_30_160_Outdoor_Cfg.txt std_RC  0.016859538737609002
+4_30_30_160_Outdoor_Cfg.txt E_mean_RC 2.432E-1
+4_30_30_160_Outdoor_Cfg.txt E_std_RC 1.686E-2
 _______
-6_40_40_320_Outdoor_Cfg.txt times  7
-6_40_40_320_Outdoor_Cfg.txt makeSpan  300 308 312 322 338 303 318
-6_40_40_320_Outdoor_Cfg.txt c_lst 
-6_40_40_320_Outdoor_Cfg.txt r_lst 
+6_40_40_320_Outdoor_Cfg.txt times  15
+6_40_40_320_Outdoor_Cfg.txt makeSpan  300 308 312 322 338 303 318 320 329 321 304 322 354 334 331
+6_40_40_320_Outdoor_Cfg.txt c_lst  0.9655172413793104 0.9796238244514106 0.9733542319749217 0.9710031347962382 0.9882445141065831 0.9772727272727273 0.9568965517241379 0.9772727272727273 0.9545454545454546 0.9843260188087775 0.9600313479623824 0.9725705329153606 0.9835423197492164 0.9686520376175548 0.9741379310344828
+6_40_40_320_Outdoor_Cfg.txt r_lst  0.30213004484304934 0.3119517543859649 0.308245711123409 0.33564198188598826 0.34045881126173094 0.29441624365482233 0.30665920537213204 0.29232505643340856 0.29834569309754705 0.3068432671081678 0.29041570438799075 0.2747957992998833 0.33647798742138363 0.30730619074177357 0.3075639599555061
 6_40_40_320_Outdoor_Cfg.txt lowBound  212.66666666666666
-6_40_40_320_Outdoor_Cfg.txt mean_MS  314.428571429
-6_40_40_320_Outdoor_Cfg.txt std_MS  12.0220885143
-6_40_40_320_Outdoor_Cfg.txt E_mean_MS 3.144E+2
-6_40_40_320_Outdoor_Cfg.txt E_std_MS 1.202E+1
-6_40_40_320_Outdoor_Cfg.txt mean_CR  0.973130317958
-6_40_40_320_Outdoor_Cfg.txt std_CR  0.00936431870413
-6_40_40_320_Outdoor_Cfg.txt E_mean_CR 9.731E-1
-6_40_40_320_Outdoor_Cfg.txt E_std_CR 9.364E-3
-6_40_40_320_Outdoor_Cfg.txt mean_RC  0.31421482179
-6_40_40_320_Outdoor_Cfg.txt std_RC  0.0159630591361
-6_40_40_320_Outdoor_Cfg.txt E_mean_RC 3.142E-1
-6_40_40_320_Outdoor_Cfg.txt E_std_RC 1.596E-2
+6_40_40_320_Outdoor_Cfg.txt reachNum  1276
+6_40_40_320_Outdoor_Cfg.txt E_LB 2.127E+2
+
+6_40_40_320_Outdoor_Cfg.txt astc_MS  298.0
+6_40_40_320_Outdoor_Cfg.txt astc_RC  0.3667711598746082
+6_40_40_320_Outdoor_Cfg.txt E_astc_MS 2.98E+2
+6_40_40_320_Outdoor_Cfg.txt E_astc_RC 3.668E-1
+
+6_40_40_320_Outdoor_Cfg.txt mean_MS  321.06666666666666
+6_40_40_320_Outdoor_Cfg.txt std_MS  14.205476252331549
+6_40_40_320_Outdoor_Cfg.txt E_mean_MS 3.211E+2
+6_40_40_320_Outdoor_Cfg.txt E_std_MS 1.421E+1
+6_40_40_320_Outdoor_Cfg.txt mean_CR  0.9724660397074191
+6_40_40_320_Outdoor_Cfg.txt std_CR  0.00964880346512328
+6_40_40_320_Outdoor_Cfg.txt E_mean_CR 9.725E-1
+6_40_40_320_Outdoor_Cfg.txt E_std_CR 9.649E-3
+6_40_40_320_Outdoor_Cfg.txt mean_RC  0.3075718273981839
+6_40_40_320_Outdoor_Cfg.txt std_RC  0.017540418250452865
+6_40_40_320_Outdoor_Cfg.txt E_mean_RC 3.076E-1
+6_40_40_320_Outdoor_Cfg.txt E_std_RC 1.754E-2
 _______
-8_40_40_320_Outdoor_Cfg.txt times  4
-8_40_40_320_Outdoor_Cfg.txt makeSpan  246 258 256 239
-8_40_40_320_Outdoor_Cfg.txt c_lst 
-8_40_40_320_Outdoor_Cfg.txt r_lst 
+8_40_40_320_Outdoor_Cfg.txt times  13
+8_40_40_320_Outdoor_Cfg.txt makeSpan  246 258 256 239 254 265 272 238 242 292 271 240 253
+8_40_40_320_Outdoor_Cfg.txt c_lst  0.9796238244514106 0.9529780564263323 0.9796238244514106 0.9733542319749217 0.9780564263322884 0.9725705329153606 0.9749216300940439 0.9796238244514106 0.9749216300940439 0.9811912225705329 0.9764890282131662 0.9866771159874608 0.9749216300940439
+8_40_40_320_Outdoor_Cfg.txt r_lst  0.28880045480386585 0.3002296211251435 0.32235421166306694 0.30196078431372547 0.27838616714697406 0.32080610021786493 0.33011789924973206 0.3096418732782369 0.30274202574146614 0.3292291220556745 0.3014005602240896 0.30220994475138124 0.3134246575342466
 8_40_40_320_Outdoor_Cfg.txt lowBound  159.5
-8_40_40_320_Outdoor_Cfg.txt mean_MS  249.75
-8_40_40_320_Outdoor_Cfg.txt std_MS  7.69334127671
-8_40_40_320_Outdoor_Cfg.txt E_mean_MS 2.498E+2
-8_40_40_320_Outdoor_Cfg.txt E_std_MS 7.693E+0
-8_40_40_320_Outdoor_Cfg.txt mean_CR  0.971394984326
-8_40_40_320_Outdoor_Cfg.txt std_CR  0.010936744308
-8_40_40_320_Outdoor_Cfg.txt E_mean_CR 9.714E-1
-8_40_40_320_Outdoor_Cfg.txt E_std_CR 1.094E-2
-8_40_40_320_Outdoor_Cfg.txt mean_RC  0.303336267976
-8_40_40_320_Outdoor_Cfg.txt std_RC  0.0120883751661
-8_40_40_320_Outdoor_Cfg.txt E_mean_RC 3.033E-1
-8_40_40_320_Outdoor_Cfg.txt E_std_RC 1.209E-2
+8_40_40_320_Outdoor_Cfg.txt reachNum  1276
+8_40_40_320_Outdoor_Cfg.txt E_LB 1.595E+2
+
+8_40_40_320_Outdoor_Cfg.txt astc_MS  234.0
+8_40_40_320_Outdoor_Cfg.txt astc_RC  0.4012539184952978
+8_40_40_320_Outdoor_Cfg.txt E_astc_MS 2.34E+2
+8_40_40_320_Outdoor_Cfg.txt E_astc_RC 4.013E-1
+
+8_40_40_320_Outdoor_Cfg.txt mean_MS  255.84615384615384
+8_40_40_320_Outdoor_Cfg.txt std_MS  15.29125518742986
+8_40_40_320_Outdoor_Cfg.txt E_mean_MS 2.558E+2
+8_40_40_320_Outdoor_Cfg.txt E_std_MS 1.529E+1
+8_40_40_320_Outdoor_Cfg.txt mean_CR  0.9757656136966484
+8_40_40_320_Outdoor_Cfg.txt std_CR  0.007526157616007037
+8_40_40_320_Outdoor_Cfg.txt E_mean_CR 9.758E-1
+8_40_40_320_Outdoor_Cfg.txt E_std_CR 7.526E-3
+8_40_40_320_Outdoor_Cfg.txt mean_RC  0.30779257093118984
+8_40_40_320_Outdoor_Cfg.txt std_RC  0.014646228652688949
+8_40_40_320_Outdoor_Cfg.txt E_mean_RC 3.078E-1
+8_40_40_320_Outdoor_Cfg.txt E_std_RC 1.465E-2
 _______
-2_30_30_153_barMaze_Cfg.txt times  10
-2_30_30_153_barMaze_Cfg.txt makeSpan  276 285 282 275 280 265 279 260 282 270
-2_30_30_153_barMaze_Cfg.txt c_lst 
-2_30_30_153_barMaze_Cfg.txt r_lst 
+2_30_30_153_barMaze_Cfg.txt times  15
+2_30_30_153_barMaze_Cfg.txt makeSpan  276 285 282 275 280 265 279 260 282 270 276 258 279 278 275
+2_30_30_153_barMaze_Cfg.txt c_lst  1.0 1.0 1.0 1.0 1.0 0.989247311827957 0.9986559139784946 0.989247311827957 1.0 0.989247311827957 1.0 0.9973118279569892 1.0 1.0 0.9946236559139785
+2_30_30_153_barMaze_Cfg.txt r_lst  0.043701799485861184 0.10253317249698432 0.05583756345177665 0.033766233766233764 0.05583756345177665 0.060836501901140684 0.074719800747198 0.04539559014267185 0.06297229219143577 0.06439393939393939 0.043701799485861184 0.011984021304926764 0.043701799485861184 0.046153846153846156 0.06801007556675064
 2_30_30_153_barMaze_Cfg.txt lowBound  248.0
-2_30_30_153_barMaze_Cfg.txt mean_MS  275.4
-2_30_30_153_barMaze_Cfg.txt std_MS  7.67072356431
-2_30_30_153_barMaze_Cfg.txt E_mean_MS 2.754E+2
-2_30_30_153_barMaze_Cfg.txt E_std_MS 7.671E+0
-2_30_30_153_barMaze_Cfg.txt mean_CR  0.996639784946
-2_30_30_153_barMaze_Cfg.txt std_CR  0.004855481685
-2_30_30_153_barMaze_Cfg.txt E_mean_CR 9.966E-1
-2_30_30_153_barMaze_Cfg.txt E_std_CR 4.855E-3
-2_30_30_153_barMaze_Cfg.txt mean_RC  0.0599994457029
-2_30_30_153_barMaze_Cfg.txt std_RC  0.0180454055855
-2_30_30_153_barMaze_Cfg.txt E_mean_RC 6.0E-2
-2_30_30_153_barMaze_Cfg.txt E_std_RC 1.805E-2
+2_30_30_153_barMaze_Cfg.txt reachNum  744
+2_30_30_153_barMaze_Cfg.txt E_LB 2.48E+2
+
+2_30_30_153_barMaze_Cfg.txt astc_MS  276.0
+2_30_30_153_barMaze_Cfg.txt astc_RC  0.09811827956989247
+2_30_30_153_barMaze_Cfg.txt E_astc_MS 2.76E+2
+2_30_30_153_barMaze_Cfg.txt E_astc_RC 9.812E-2
+
+2_30_30_153_barMaze_Cfg.txt mean_MS  274.6666666666667
+2_30_30_153_barMaze_Cfg.txt std_MS  7.7602978178818764
+2_30_30_153_barMaze_Cfg.txt E_mean_MS 2.747E+2
+2_30_30_153_barMaze_Cfg.txt E_std_MS 7.76E+0
+2_30_30_153_barMaze_Cfg.txt mean_CR  0.9972222222222221
+2_30_30_153_barMaze_Cfg.txt std_CR  0.004235233798600883
+2_30_30_153_barMaze_Cfg.txt E_mean_CR 9.972E-1
+2_30_30_153_barMaze_Cfg.txt E_std_CR 4.235E-3
+2_30_30_153_barMaze_Cfg.txt mean_RC  0.054236399935084285
+2_30_30_153_barMaze_Cfg.txt std_RC  0.019749691173711278
+2_30_30_153_barMaze_Cfg.txt E_mean_RC 5.424E-2
+2_30_30_153_barMaze_Cfg.txt E_std_RC 1.975E-2
 _______
-4_30_30_153_barMaze_Cfg.txt times  8
-4_30_30_153_barMaze_Cfg.txt makeSpan  207 204 207 203 209 222 202 207
-4_30_30_153_barMaze_Cfg.txt c_lst 
-4_30_30_153_barMaze_Cfg.txt r_lst 
+4_30_30_153_barMaze_Cfg.txt times  13
+4_30_30_153_barMaze_Cfg.txt makeSpan  207 204 207 203 209 222 202 207 193 207 203 207 206
+4_30_30_153_barMaze_Cfg.txt c_lst  0.9946236559139785 1.0 0.9946236559139785 0.989247311827957 1.0 1.0 0.9879032258064516 0.9946236559139785 0.9758064516129032 0.9946236559139785 0.989247311827957 1.0 0.9946236559139785
+4_30_30_153_barMaze_Cfg.txt r_lst  0.060836501901140684 0.07116104868913857 0.08518518518518518 0.03664921465968586 0.07 0.12573443008225618 0.03289473684210526 0.06091370558375635 0.034574468085106384 0.08518518518518518 0.07187894073139975 0.08487084870848709 0.05844980940279543
 4_30_30_153_barMaze_Cfg.txt lowBound  186.0
-4_30_30_153_barMaze_Cfg.txt mean_MS  207.625
-4_30_30_153_barMaze_Cfg.txt std_MS  5.87233982327
-4_30_30_153_barMaze_Cfg.txt E_mean_MS 2.076E+2
-4_30_30_153_barMaze_Cfg.txt E_std_MS 5.872E+0
-4_30_30_153_barMaze_Cfg.txt mean_CR  0.995127688172
-4_30_30_153_barMaze_Cfg.txt std_CR  0.00445466182243
-4_30_30_153_barMaze_Cfg.txt E_mean_CR 9.951E-1
-4_30_30_153_barMaze_Cfg.txt E_std_CR 4.455E-3
-4_30_30_153_barMaze_Cfg.txt mean_RC  0.0679218528679
-4_30_30_153_barMaze_Cfg.txt std_RC  0.0272931330562
-4_30_30_153_barMaze_Cfg.txt E_mean_RC 6.792E-2
-4_30_30_153_barMaze_Cfg.txt E_std_RC 2.729E-2
+4_30_30_153_barMaze_Cfg.txt reachNum  744
+4_30_30_153_barMaze_Cfg.txt E_LB 1.86E+2
+
+4_30_30_153_barMaze_Cfg.txt astc_MS  214.0
+4_30_30_153_barMaze_Cfg.txt astc_RC  0.11290322580645161
+4_30_30_153_barMaze_Cfg.txt E_astc_MS 2.14E+2
+4_30_30_153_barMaze_Cfg.txt E_astc_RC 1.129E-1
+
+4_30_30_153_barMaze_Cfg.txt mean_MS  205.92307692307693
+4_30_30_153_barMaze_Cfg.txt std_MS  6.056929133855239
+4_30_30_153_barMaze_Cfg.txt E_mean_MS 2.059E+2
+4_30_30_153_barMaze_Cfg.txt E_std_MS 6.057E+0
+4_30_30_153_barMaze_Cfg.txt mean_CR  0.9934863523573202
+4_30_30_153_barMaze_Cfg.txt std_CR  0.006539035691001606
+4_30_30_153_barMaze_Cfg.txt E_mean_CR 9.935E-1
+4_30_30_153_barMaze_Cfg.txt E_std_CR 6.539E-3
+4_30_30_153_barMaze_Cfg.txt mean_RC  0.0675641596197109
+4_30_30_153_barMaze_Cfg.txt std_RC  0.02443259950988952
+4_30_30_153_barMaze_Cfg.txt E_mean_RC 6.756E-2
+4_30_30_153_barMaze_Cfg.txt E_std_RC 2.443E-2
 _______
-6_30_30_153_barMaze_Cfg.txt times  8
-6_30_30_153_barMaze_Cfg.txt makeSpan  136 137 141 136 136 137 134 143
-6_30_30_153_barMaze_Cfg.txt c_lst 
-6_30_30_153_barMaze_Cfg.txt r_lst 
+6_30_30_153_barMaze_Cfg.txt times  13
+6_30_30_153_barMaze_Cfg.txt makeSpan  136 137 141 136 136 137 134 143 133 138 140 138 138
+6_30_30_153_barMaze_Cfg.txt c_lst  1.0013440860215055 1.0 1.0 1.0013440860215055 1.0 1.0 1.0013440860215055 1.0013440860215055 1.0 0.9986559139784946 1.0013440860215055 1.0 1.0013440860215055
+6_30_30_153_barMaze_Cfg.txt r_lst  0.04846938775510204 0.056962025316455694 0.037516170763260026 0.03622250970245795 0.04859335038363171 0.054637865311308764 0.05456852791878172 0.04113110539845758 0.04853128991060025 0.06775407779171895 0.03870967741935484 0.032509752925877766 0.03372243839169909
 6_30_30_153_barMaze_Cfg.txt lowBound  124.0
-6_30_30_153_barMaze_Cfg.txt mean_MS  137.5
-6_30_30_153_barMaze_Cfg.txt std_MS  2.78388218142
+6_30_30_153_barMaze_Cfg.txt reachNum  744
+6_30_30_153_barMaze_Cfg.txt E_LB 1.24E+2
+
+6_30_30_153_barMaze_Cfg.txt astc_MS  138.0
+6_30_30_153_barMaze_Cfg.txt astc_RC  0.07526881720430108
+6_30_30_153_barMaze_Cfg.txt E_astc_MS 1.38E+2
+6_30_30_153_barMaze_Cfg.txt E_astc_RC 7.527E-2
+
+6_30_30_153_barMaze_Cfg.txt mean_MS  137.46153846153845
+6_30_30_153_barMaze_Cfg.txt std_MS  2.619905594757908
 6_30_30_153_barMaze_Cfg.txt E_mean_MS 1.375E+2
-6_30_30_153_barMaze_Cfg.txt E_std_MS 2.784E+0
-6_30_30_153_barMaze_Cfg.txt mean_CR  1.00067204301
-6_30_30_153_barMaze_Cfg.txt std_CR  0.000672043010753
+6_30_30_153_barMaze_Cfg.txt E_std_MS 2.62E+0
+6_30_30_153_barMaze_Cfg.txt mean_CR  1.0005169561621174
+6_30_30_153_barMaze_Cfg.txt std_CR  0.0008399543429111292
 6_30_30_153_barMaze_Cfg.txt E_mean_CR 1.001E+0
-6_30_30_153_barMaze_Cfg.txt E_std_CR 6.72E-4
-6_30_30_153_barMaze_Cfg.txt mean_RC  0.0472626178187
-6_30_30_153_barMaze_Cfg.txt std_RC  0.00757915652131
-6_30_30_153_barMaze_Cfg.txt E_mean_RC 4.726E-2
-6_30_30_153_barMaze_Cfg.txt E_std_RC 7.579E-3
+6_30_30_153_barMaze_Cfg.txt E_std_CR 8.4E-4
+6_30_30_153_barMaze_Cfg.txt mean_RC  0.046102167614515875
+6_30_30_153_barMaze_Cfg.txt std_RC  0.010143919207098763
+6_30_30_153_barMaze_Cfg.txt E_mean_RC 4.61E-2
+6_30_30_153_barMaze_Cfg.txt E_std_RC 1.014E-2
 _______
-2_30_30_242_CircularMaze_Cfg.txt times  3
-2_30_30_242_CircularMaze_Cfg.txt makeSpan  338 362 367
-2_30_30_242_CircularMaze_Cfg.txt c_lst 
-2_30_30_242_CircularMaze_Cfg.txt r_lst 
+2_30_30_242_CircularMaze_Cfg.txt times  10
+2_30_30_242_CircularMaze_Cfg.txt makeSpan  338 362 367 288 367 357 283 362 343 361
+2_30_30_242_CircularMaze_Cfg.txt c_lst  0.9361702127659575 0.986322188449848 0.9817629179331308 0.8480243161094225 1.0 0.9832826747720365 0.8449848024316109 0.9848024316109423 0.9498480243161094 0.9848024316109423
+2_30_30_242_CircularMaze_Cfg.txt r_lst  0.08320950965824665 0.09986130374479889 0.07050359712230216 0.010638297872340425 0.06534090909090909 0.08615819209039548 0.005366726296958855 0.07954545454545454 0.08088235294117647 0.0821529745042493
 2_30_30_242_CircularMaze_Cfg.txt lowBound  329.0
-2_30_30_242_CircularMaze_Cfg.txt mean_MS  355.666666667
-2_30_30_242_CircularMaze_Cfg.txt std_MS  12.6578916974
-2_30_30_242_CircularMaze_Cfg.txt E_mean_MS 3.557E+2
-2_30_30_242_CircularMaze_Cfg.txt E_std_MS 1.266E+1
-2_30_30_242_CircularMaze_Cfg.txt mean_CR  0.968085106383
-2_30_30_242_CircularMaze_Cfg.txt std_CR  0.0226438669084
-2_30_30_242_CircularMaze_Cfg.txt E_mean_CR 9.681E-1
-2_30_30_242_CircularMaze_Cfg.txt E_std_CR 2.264E-2
-2_30_30_242_CircularMaze_Cfg.txt mean_RC  0.0845248035084
-2_30_30_242_CircularMaze_Cfg.txt std_RC  0.0120212654067
-2_30_30_242_CircularMaze_Cfg.txt E_mean_RC 8.452E-2
-2_30_30_242_CircularMaze_Cfg.txt E_std_RC 1.202E-2
+2_30_30_242_CircularMaze_Cfg.txt reachNum  658
+2_30_30_242_CircularMaze_Cfg.txt E_LB 3.29E+2
+
+2_30_30_242_CircularMaze_Cfg.txt astc_MS  392.0
+2_30_30_242_CircularMaze_Cfg.txt astc_RC  0.16261398176291794
+2_30_30_242_CircularMaze_Cfg.txt E_astc_MS 3.92E+2
+2_30_30_242_CircularMaze_Cfg.txt E_astc_RC 1.626E-1
+
+2_30_30_242_CircularMaze_Cfg.txt mean_MS  342.8
+2_30_30_242_CircularMaze_Cfg.txt std_MS  30.072578871789496
+2_30_30_242_CircularMaze_Cfg.txt E_mean_MS 3.428E+2
+2_30_30_242_CircularMaze_Cfg.txt E_std_MS 3.007E+1
+2_30_30_242_CircularMaze_Cfg.txt mean_CR  0.95
+2_30_30_242_CircularMaze_Cfg.txt std_CR  0.05475112528367705
+2_30_30_242_CircularMaze_Cfg.txt E_mean_CR 9.5E-1
+2_30_30_242_CircularMaze_Cfg.txt E_std_CR 5.475E-2
+2_30_30_242_CircularMaze_Cfg.txt mean_RC  0.06636593178668318
+2_30_30_242_CircularMaze_Cfg.txt std_RC  0.030456000796448564
+2_30_30_242_CircularMaze_Cfg.txt E_mean_RC 6.637E-2
+2_30_30_242_CircularMaze_Cfg.txt E_std_RC 3.046E-2
 _______
-4_30_30_242_CircularMaze_Cfg.txt times  3
-4_30_30_242_CircularMaze_Cfg.txt makeSpan  186 188 180
-4_30_30_242_CircularMaze_Cfg.txt c_lst 
-4_30_30_242_CircularMaze_Cfg.txt r_lst 
+4_30_30_242_CircularMaze_Cfg.txt times  10
+4_30_30_242_CircularMaze_Cfg.txt makeSpan  186 188 180 185 183 195 186 186 186 169
+4_30_30_242_CircularMaze_Cfg.txt c_lst  0.9984802431610942 0.993920972644377 0.9817629179331308 0.9817629179331308 1.0 0.9969604863221885 1.0 0.9969604863221885 1.0 0.9604863221884499
+4_30_30_242_CircularMaze_Cfg.txt r_lst  0.06676136363636363 0.08016877637130802 0.0182370820668693 0.069164265129683 0.03941605839416058 0.06685633001422475 0.06134094151212553 0.06552706552706553 0.05595408895265423 0.036585365853658534
 4_30_30_242_CircularMaze_Cfg.txt lowBound  164.5
-4_30_30_242_CircularMaze_Cfg.txt mean_MS  184.666666667
-4_30_30_242_CircularMaze_Cfg.txt std_MS  3.3993463424
-4_30_30_242_CircularMaze_Cfg.txt E_mean_MS 1.847E+2
-4_30_30_242_CircularMaze_Cfg.txt E_std_MS 3.399E+0
-4_30_30_242_CircularMaze_Cfg.txt mean_CR  0.99138804458
-4_30_30_242_CircularMaze_Cfg.txt std_CR  0.00705592111306
-4_30_30_242_CircularMaze_Cfg.txt E_mean_CR 9.914E-1
-4_30_30_242_CircularMaze_Cfg.txt E_std_CR 7.056E-3
-4_30_30_242_CircularMaze_Cfg.txt mean_RC  0.0550557406915
-4_30_30_242_CircularMaze_Cfg.txt std_RC  0.0266038831282
-4_30_30_242_CircularMaze_Cfg.txt E_mean_RC 5.506E-2
-4_30_30_242_CircularMaze_Cfg.txt E_std_RC 2.66E-2
+4_30_30_242_CircularMaze_Cfg.txt reachNum  658
+4_30_30_242_CircularMaze_Cfg.txt E_LB 1.645E+2
+
+4_30_30_242_CircularMaze_Cfg.txt astc_MS  273.0
+4_30_30_242_CircularMaze_Cfg.txt astc_RC  0.196048632218845
+4_30_30_242_CircularMaze_Cfg.txt E_astc_MS 2.73E+2
+4_30_30_242_CircularMaze_Cfg.txt E_astc_RC 1.96E-1
+
+4_30_30_242_CircularMaze_Cfg.txt mean_MS  184.4
+4_30_30_242_CircularMaze_Cfg.txt std_MS  6.2801273872430325
+4_30_30_242_CircularMaze_Cfg.txt E_mean_MS 1.844E+2
+4_30_30_242_CircularMaze_Cfg.txt E_std_MS 6.28E+0
+4_30_30_242_CircularMaze_Cfg.txt mean_CR  0.9910334346504559
+4_30_30_242_CircularMaze_Cfg.txt std_CR  0.012166600340197821
+4_30_30_242_CircularMaze_Cfg.txt E_mean_CR 9.91E-1
+4_30_30_242_CircularMaze_Cfg.txt E_std_CR 1.217E-2
+4_30_30_242_CircularMaze_Cfg.txt mean_RC  0.05600113374581132
+4_30_30_242_CircularMaze_Cfg.txt std_RC  0.01785603627402413
+4_30_30_242_CircularMaze_Cfg.txt E_mean_RC 5.6E-2
+4_30_30_242_CircularMaze_Cfg.txt E_std_RC 1.786E-2
 _______
-6_30_30_242_CircularMaze_Cfg.txt times  3
-6_30_30_242_CircularMaze_Cfg.txt makeSpan  137 146 127
-6_30_30_242_CircularMaze_Cfg.txt c_lst 
-6_30_30_242_CircularMaze_Cfg.txt r_lst 
+6_30_30_242_CircularMaze_Cfg.txt times  10
+6_30_30_242_CircularMaze_Cfg.txt makeSpan  137 146 127 130 133 135 130 128 138 126
+6_30_30_242_CircularMaze_Cfg.txt c_lst  0.9984802431610942 1.0 0.9741641337386018 0.9954407294832827 0.9984802431610942 0.9924012158054711 0.9924012158054711 0.9908814589665653 0.9984802431610942 1.0
+6_30_30_242_CircularMaze_Cfg.txt r_lst  0.039473684210526314 0.12383488681757657 0.07471264367816093 0.04518950437317784 0.04227405247813411 0.07244318181818182 0.043923865300146414 0.0893854748603352 0.1400523560209424 0.014970059880239521
 6_30_30_242_CircularMaze_Cfg.txt lowBound  109.66666666666667
-6_30_30_242_CircularMaze_Cfg.txt mean_MS  136.666666667
-6_30_30_242_CircularMaze_Cfg.txt std_MS  7.76029781788
-6_30_30_242_CircularMaze_Cfg.txt E_mean_MS 1.367E+2
-6_30_30_242_CircularMaze_Cfg.txt E_std_MS 7.76E+0
-6_30_30_242_CircularMaze_Cfg.txt mean_CR  0.990881458967
-6_30_30_242_CircularMaze_Cfg.txt std_CR  0.011837205112
-6_30_30_242_CircularMaze_Cfg.txt E_mean_CR 9.909E-1
-6_30_30_242_CircularMaze_Cfg.txt E_std_CR 1.184E-2
-6_30_30_242_CircularMaze_Cfg.txt mean_RC  0.0793404049021
-6_30_30_242_CircularMaze_Cfg.txt std_RC  0.0345954260636
-6_30_30_242_CircularMaze_Cfg.txt E_mean_RC 7.934E-2
-6_30_30_242_CircularMaze_Cfg.txt E_std_RC 3.46E-2
+6_30_30_242_CircularMaze_Cfg.txt reachNum  658
+6_30_30_242_CircularMaze_Cfg.txt E_LB 1.097E+2
+
+6_30_30_242_CircularMaze_Cfg.txt astc_MS  212.0
+6_30_30_242_CircularMaze_Cfg.txt astc_RC  0.18085106382978725
+6_30_30_242_CircularMaze_Cfg.txt E_astc_MS 2.12E+2
+6_30_30_242_CircularMaze_Cfg.txt E_astc_RC 1.809E-1
+
+6_30_30_242_CircularMaze_Cfg.txt mean_MS  133.0
+6_30_30_242_CircularMaze_Cfg.txt std_MS  5.848076606885378
+6_30_30_242_CircularMaze_Cfg.txt E_mean_MS 1.33E+2
+6_30_30_242_CircularMaze_Cfg.txt E_std_MS 5.848E+0
+6_30_30_242_CircularMaze_Cfg.txt mean_CR  0.9940729483282673
+6_30_30_242_CircularMaze_Cfg.txt std_CR  0.00736572693984963
+6_30_30_242_CircularMaze_Cfg.txt E_mean_CR 9.941E-1
+6_30_30_242_CircularMaze_Cfg.txt E_std_CR 7.366E-3
+6_30_30_242_CircularMaze_Cfg.txt mean_RC  0.0686259709437421
+6_30_30_242_CircularMaze_Cfg.txt std_RC  0.03770282054839963
+6_30_30_242_CircularMaze_Cfg.txt E_mean_RC 6.863E-2
+6_30_30_242_CircularMaze_Cfg.txt E_std_RC 3.77E-2
 _______
-8_30_30_242_CircularMaze_Cfg.txt times  2
-8_30_30_242_CircularMaze_Cfg.txt makeSpan  101 117
-8_30_30_242_CircularMaze_Cfg.txt c_lst 
-8_30_30_242_CircularMaze_Cfg.txt r_lst 
+8_30_30_242_CircularMaze_Cfg.txt times  9
+8_30_30_242_CircularMaze_Cfg.txt makeSpan  101 117 111 112 108 100 118 99 119
+8_30_30_242_CircularMaze_Cfg.txt c_lst  1.0 0.993920972644377 0.986322188449848 0.9984802431610942 0.9969604863221885 1.0 1.0 0.9954407294832827 1.0
+8_30_30_242_CircularMaze_Cfg.txt r_lst  0.07454289732770746 0.1583011583011583 0.06886657101865136 0.17358490566037735 0.09392265193370165 0.11677852348993288 0.17440401505646172 0.017991004497751123 0.0886426592797784
 8_30_30_242_CircularMaze_Cfg.txt lowBound  82.25
-8_30_30_242_CircularMaze_Cfg.txt mean_MS  109.0
-8_30_30_242_CircularMaze_Cfg.txt std_MS  8.0
-8_30_30_242_CircularMaze_Cfg.txt E_mean_MS 1.09E+2
-8_30_30_242_CircularMaze_Cfg.txt E_std_MS 8.0E+0
-8_30_30_242_CircularMaze_Cfg.txt mean_CR  0.996960486322
-8_30_30_242_CircularMaze_Cfg.txt std_CR  0.00303951367781
-8_30_30_242_CircularMaze_Cfg.txt E_mean_CR 9.97E-1
-8_30_30_242_CircularMaze_Cfg.txt E_std_CR 3.04E-3
-8_30_30_242_CircularMaze_Cfg.txt mean_RC  0.116422027814
-8_30_30_242_CircularMaze_Cfg.txt std_RC  0.0418791304867
-8_30_30_242_CircularMaze_Cfg.txt E_mean_RC 1.164E-1
-8_30_30_242_CircularMaze_Cfg.txt E_std_RC 4.188E-2
+8_30_30_242_CircularMaze_Cfg.txt reachNum  658
+8_30_30_242_CircularMaze_Cfg.txt E_LB 8.225E+1
+
+8_30_30_242_CircularMaze_Cfg.txt astc_MS  112.0
+8_30_30_242_CircularMaze_Cfg.txt astc_RC  0.17477203647416414
+8_30_30_242_CircularMaze_Cfg.txt E_astc_MS 1.12E+2
+8_30_30_242_CircularMaze_Cfg.txt E_astc_RC 1.748E-1
+
+8_30_30_242_CircularMaze_Cfg.txt mean_MS  109.44444444444444
+8_30_30_242_CircularMaze_Cfg.txt std_MS  7.470105028431828
+8_30_30_242_CircularMaze_Cfg.txt E_mean_MS 1.094E+2
+8_30_30_242_CircularMaze_Cfg.txt E_std_MS 7.47E+0
+8_30_30_242_CircularMaze_Cfg.txt mean_CR  0.9967916244511988
+8_30_30_242_CircularMaze_Cfg.txt std_CR  0.004265224903855153
+8_30_30_242_CircularMaze_Cfg.txt E_mean_CR 9.968E-1
+8_30_30_242_CircularMaze_Cfg.txt E_std_CR 4.265E-3
+8_30_30_242_CircularMaze_Cfg.txt mean_RC  0.10744826517394669
+8_30_30_242_CircularMaze_Cfg.txt std_RC  0.050156093003145094
+8_30_30_242_CircularMaze_Cfg.txt E_mean_RC 1.074E-1
+8_30_30_242_CircularMaze_Cfg.txt E_std_RC 5.016E-2
 _______
-2_20_20_0_Outdoor_Cfg.txt times  6
-2_20_20_0_Outdoor_Cfg.txt makeSpan  200 200 200 200 200 200
-2_20_20_0_Outdoor_Cfg.txt c_lst 
-2_20_20_0_Outdoor_Cfg.txt r_lst 
+2_20_20_0_Outdoor_Cfg.txt times  13
+2_20_20_0_Outdoor_Cfg.txt makeSpan  200 200 200 200 200 200 200 200 201 200 200 200 200
+2_20_20_0_Outdoor_Cfg.txt c_lst  1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
+2_20_20_0_Outdoor_Cfg.txt r_lst  0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
 2_20_20_0_Outdoor_Cfg.txt lowBound  200.0
-2_20_20_0_Outdoor_Cfg.txt mean_MS  200.0
-2_20_20_0_Outdoor_Cfg.txt std_MS  0.0
-2_20_20_0_Outdoor_Cfg.txt E_mean_MS 2.0E+2
-2_20_20_0_Outdoor_Cfg.txt E_std_MS 0.0E+0
+2_20_20_0_Outdoor_Cfg.txt reachNum  400
+2_20_20_0_Outdoor_Cfg.txt E_LB 2.0E+2
+
+2_20_20_0_Outdoor_Cfg.txt astc_MS  200.0
+2_20_20_0_Outdoor_Cfg.txt astc_RC  0.0
+2_20_20_0_Outdoor_Cfg.txt E_astc_MS 2.0E+2
+2_20_20_0_Outdoor_Cfg.txt E_astc_RC 0.0E+0
+
+2_20_20_0_Outdoor_Cfg.txt mean_MS  200.07692307692307
+2_20_20_0_Outdoor_Cfg.txt std_MS  0.26646935501059654
+2_20_20_0_Outdoor_Cfg.txt E_mean_MS 2.001E+2
+2_20_20_0_Outdoor_Cfg.txt E_std_MS 2.665E-1
 2_20_20_0_Outdoor_Cfg.txt mean_CR  1.0
 2_20_20_0_Outdoor_Cfg.txt std_CR  0.0
 2_20_20_0_Outdoor_Cfg.txt E_mean_CR 10.0E-1
@@ -215,165 +310,237 @@ _______
 2_20_20_0_Outdoor_Cfg.txt E_mean_RC 0.0E+0
 2_20_20_0_Outdoor_Cfg.txt E_std_RC 0.0E+0
 _______
-4_30_30_0_Outdoor_Cfg.txt times  6
-4_30_30_0_Outdoor_Cfg.txt makeSpan  227 226 228 228 227 228
-4_30_30_0_Outdoor_Cfg.txt c_lst 
-4_30_30_0_Outdoor_Cfg.txt r_lst 
+4_30_30_0_Outdoor_Cfg.txt times  13
+4_30_30_0_Outdoor_Cfg.txt makeSpan  227 226 228 228 227 228 226 229 228 229 228 228 226
+4_30_30_0_Outdoor_Cfg.txt c_lst  1.0 0.9988888888888889 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
+4_30_30_0_Outdoor_Cfg.txt r_lst  0.006622516556291391 0.004429678848283499 0.012074643249176729 0.007717750826901874 0.0055248618784530384 0.009900990099009901 0.0022172949002217295 0.012074643249176729 0.00881057268722467 0.012074643249176729 0.0055248618784530384 0.012074643249176729 0.0022172949002217295
 4_30_30_0_Outdoor_Cfg.txt lowBound  225.0
-4_30_30_0_Outdoor_Cfg.txt mean_MS  227.333333333
-4_30_30_0_Outdoor_Cfg.txt std_MS  0.7453559925
-4_30_30_0_Outdoor_Cfg.txt E_mean_MS 2.273E+2
-4_30_30_0_Outdoor_Cfg.txt E_std_MS 7.454E-1
-4_30_30_0_Outdoor_Cfg.txt mean_CR  0.999814814815
-4_30_30_0_Outdoor_Cfg.txt std_CR  0.0004140866625
-4_30_30_0_Outdoor_Cfg.txt E_mean_CR 9.998E-1
-4_30_30_0_Outdoor_Cfg.txt E_std_CR 4.141E-4
-4_30_30_0_Outdoor_Cfg.txt mean_RC  0.00771174024302
-4_30_30_0_Outdoor_Cfg.txt std_RC  0.00260027389327
-4_30_30_0_Outdoor_Cfg.txt E_mean_RC 7.712E-3
-4_30_30_0_Outdoor_Cfg.txt E_std_RC 2.6E-3
+4_30_30_0_Outdoor_Cfg.txt reachNum  900
+4_30_30_0_Outdoor_Cfg.txt E_LB 2.25E+2
+
+4_30_30_0_Outdoor_Cfg.txt astc_MS  228.0
+4_30_30_0_Outdoor_Cfg.txt astc_RC  0.0
+4_30_30_0_Outdoor_Cfg.txt E_astc_MS 2.28E+2
+4_30_30_0_Outdoor_Cfg.txt E_astc_RC 0.0E+0
+
+4_30_30_0_Outdoor_Cfg.txt mean_MS  227.53846153846155
+4_30_30_0_Outdoor_Cfg.txt std_MS  1.0088366960464614
+4_30_30_0_Outdoor_Cfg.txt E_mean_MS 2.275E+2
+4_30_30_0_Outdoor_Cfg.txt E_std_MS 1.009E+0
+4_30_30_0_Outdoor_Cfg.txt mean_CR  0.9999145299145299
+4_30_30_0_Outdoor_Cfg.txt std_CR  0.0002960770611228722
+4_30_30_0_Outdoor_Cfg.txt E_mean_CR 9.999E-1
+4_30_30_0_Outdoor_Cfg.txt E_std_CR 2.961E-4
+4_30_30_0_Outdoor_Cfg.txt mean_RC  0.007789568890135984
+4_30_30_0_Outdoor_Cfg.txt std_RC  0.0035514059830887975
+4_30_30_0_Outdoor_Cfg.txt E_mean_RC 7.79E-3
+4_30_30_0_Outdoor_Cfg.txt E_std_RC 3.551E-3
 _______
-6_40_40_0_Outdoor_Cfg.txt times  6
-6_40_40_0_Outdoor_Cfg.txt makeSpan  274 270 273 273 273 273
-6_40_40_0_Outdoor_Cfg.txt c_lst 
-6_40_40_0_Outdoor_Cfg.txt r_lst 
+6_40_40_0_Outdoor_Cfg.txt times  13
+6_40_40_0_Outdoor_Cfg.txt makeSpan  274 270 273 273 273 273 274 272 275 273 270 273 270
+6_40_40_0_Outdoor_Cfg.txt c_lst  1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
+6_40_40_0_Outdoor_Cfg.txt r_lst  0.014778325123152709 0.006828057107386716 0.021406727828746176 0.01900674432863274 0.013563501849568433 0.015384615384615385 0.022004889975550123 0.015990159901599015 0.0231990231990232 0.016594960049170254 0.008059516429014259 0.015990159901599015 0.006211180124223602
 6_40_40_0_Outdoor_Cfg.txt lowBound  266.6666666666667
-6_40_40_0_Outdoor_Cfg.txt mean_MS  272.666666667
-6_40_40_0_Outdoor_Cfg.txt std_MS  1.24721912892
-6_40_40_0_Outdoor_Cfg.txt E_mean_MS 2.727E+2
-6_40_40_0_Outdoor_Cfg.txt E_std_MS 1.247E+0
+6_40_40_0_Outdoor_Cfg.txt reachNum  1600
+6_40_40_0_Outdoor_Cfg.txt E_LB 2.667E+2
+
+6_40_40_0_Outdoor_Cfg.txt astc_MS  268.0
+6_40_40_0_Outdoor_Cfg.txt astc_RC  0.0
+6_40_40_0_Outdoor_Cfg.txt E_astc_MS 2.68E+2
+6_40_40_0_Outdoor_Cfg.txt E_astc_RC 0.0E+0
+
+6_40_40_0_Outdoor_Cfg.txt mean_MS  272.53846153846155
+6_40_40_0_Outdoor_Cfg.txt std_MS  1.5499570522776833
+6_40_40_0_Outdoor_Cfg.txt E_mean_MS 2.725E+2
+6_40_40_0_Outdoor_Cfg.txt E_std_MS 1.55E+0
 6_40_40_0_Outdoor_Cfg.txt mean_CR  1.0
 6_40_40_0_Outdoor_Cfg.txt std_CR  0.0
 6_40_40_0_Outdoor_Cfg.txt E_mean_CR 10.0E-1
 6_40_40_0_Outdoor_Cfg.txt E_std_CR 0.0E+0
-6_40_40_0_Outdoor_Cfg.txt mean_RC  0.0151613286037
-6_40_40_0_Outdoor_Cfg.txt std_RC  0.00458230739544
-6_40_40_0_Outdoor_Cfg.txt E_mean_RC 1.516E-2
-6_40_40_0_Outdoor_Cfg.txt E_std_RC 4.582E-3
+6_40_40_0_Outdoor_Cfg.txt mean_RC  0.015309066246329358
+6_40_40_0_Outdoor_Cfg.txt std_RC  0.0053429355619114965
+6_40_40_0_Outdoor_Cfg.txt E_mean_RC 1.531E-2
+6_40_40_0_Outdoor_Cfg.txt E_std_RC 5.343E-3
 _______
-8_40_40_0_Outdoor_Cfg.txt times  4
-8_40_40_0_Outdoor_Cfg.txt makeSpan  210 209 213 214
-8_40_40_0_Outdoor_Cfg.txt c_lst 
-8_40_40_0_Outdoor_Cfg.txt r_lst 
+8_40_40_0_Outdoor_Cfg.txt times  11
+8_40_40_0_Outdoor_Cfg.txt makeSpan  210 209 213 214 211 209 206 211 208 207 207
+8_40_40_0_Outdoor_Cfg.txt c_lst  1.0 1.0 1.0 0.999375 1.0 1.0 1.0 1.0 1.0 1.0 0.99875
+8_40_40_0_Outdoor_Cfg.txt r_lst  0.02912621359223301 0.03206291591046582 0.0526939017169923 0.03616636528028933 0.04134212103055722 0.03206291591046582 0.021406727828746176 0.04705181655747469 0.027946537059538274 0.02735562310030395 0.021432945499081445
 8_40_40_0_Outdoor_Cfg.txt lowBound  200.0
-8_40_40_0_Outdoor_Cfg.txt mean_MS  211.5
-8_40_40_0_Outdoor_Cfg.txt std_MS  2.06155281281
-8_40_40_0_Outdoor_Cfg.txt E_mean_MS 2.115E+2
-8_40_40_0_Outdoor_Cfg.txt E_std_MS 2.062E+0
-8_40_40_0_Outdoor_Cfg.txt mean_CR  0.99984375
-8_40_40_0_Outdoor_Cfg.txt std_CR  0.000270632938683
+8_40_40_0_Outdoor_Cfg.txt reachNum  1600
+8_40_40_0_Outdoor_Cfg.txt E_LB 2.0E+2
+
+8_40_40_0_Outdoor_Cfg.txt astc_MS  204.0
+8_40_40_0_Outdoor_Cfg.txt astc_RC  0.0
+8_40_40_0_Outdoor_Cfg.txt E_astc_MS 2.04E+2
+8_40_40_0_Outdoor_Cfg.txt E_astc_RC 0.0E+0
+
+8_40_40_0_Outdoor_Cfg.txt mean_MS  209.54545454545453
+8_40_40_0_Outdoor_Cfg.txt std_MS  2.4257571025684244
+8_40_40_0_Outdoor_Cfg.txt E_mean_MS 2.095E+2
+8_40_40_0_Outdoor_Cfg.txt E_std_MS 2.426E+0
+8_40_40_0_Outdoor_Cfg.txt mean_CR  0.9998295454545455
+8_40_40_0_Outdoor_Cfg.txt std_CR  0.0003853596581321093
 8_40_40_0_Outdoor_Cfg.txt E_mean_CR 9.998E-1
-8_40_40_0_Outdoor_Cfg.txt E_std_CR 2.706E-4
-8_40_40_0_Outdoor_Cfg.txt mean_RC  0.037512349125
-8_40_40_0_Outdoor_Cfg.txt std_RC  0.00911475182256
-8_40_40_0_Outdoor_Cfg.txt E_mean_RC 3.751E-2
-8_40_40_0_Outdoor_Cfg.txt E_std_RC 9.115E-3
+8_40_40_0_Outdoor_Cfg.txt E_std_CR 3.854E-4
+8_40_40_0_Outdoor_Cfg.txt mean_RC  0.03351346213510436
+8_40_40_0_Outdoor_Cfg.txt std_RC  0.009555482723305368
+8_40_40_0_Outdoor_Cfg.txt E_mean_RC 3.351E-2
+8_40_40_0_Outdoor_Cfg.txt E_std_RC 9.555E-3
 _______
-2_20_20_97_livingRoom_Cfg.txt times  9
-2_20_20_97_livingRoom_Cfg.txt makeSpan  160 162 165 164 160 164 161 163 159
-2_20_20_97_livingRoom_Cfg.txt c_lst 
-2_20_20_97_livingRoom_Cfg.txt r_lst 
+2_20_20_97_livingRoom_Cfg.txt times  17
+2_20_20_97_livingRoom_Cfg.txt makeSpan  160 162 165 164 160 164 161 163 159 165 164 160 164 163 163 163 163
+2_20_20_97_livingRoom_Cfg.txt c_lst  0.9966996699669967 0.9966996699669967 0.9966996699669967 0.9966996699669967 0.9966996699669967 0.9933993399339934 0.9966996699669967 0.9900990099009901 0.9900990099009901 0.9966996699669967 0.9966996699669967 0.9966996699669967 0.9933993399339934 0.9966996699669967 0.9834983498349835 0.9966996699669967 0.9966996699669967
+2_20_20_97_livingRoom_Cfg.txt r_lst  0.05329153605015674 0.06501547987616099 0.08206686930091185 0.07926829268292683 0.05329153605015674 0.07668711656441718 0.059190031152647975 0.07692307692307693 0.044585987261146494 0.08206686930091185 0.07926829268292683 0.05329153605015674 0.07668711656441718 0.07076923076923076 0.08307692307692308 0.0736196319018405 0.0736196319018405
 2_20_20_97_livingRoom_Cfg.txt lowBound  151.5
-2_20_20_97_livingRoom_Cfg.txt mean_MS  162.0
-2_20_20_97_livingRoom_Cfg.txt std_MS  2.0
-2_20_20_97_livingRoom_Cfg.txt E_mean_MS 1.62E+2
-2_20_20_97_livingRoom_Cfg.txt E_std_MS 2.0E+0
-2_20_20_97_livingRoom_Cfg.txt mean_CR  0.994866153282
-2_20_20_97_livingRoom_Cfg.txt std_CR  0.00274415649928
-2_20_20_97_livingRoom_Cfg.txt E_mean_CR 9.949E-1
-2_20_20_97_livingRoom_Cfg.txt E_std_CR 2.744E-3
-2_20_20_97_livingRoom_Cfg.txt mean_RC  0.0655911028735
-2_20_20_97_livingRoom_Cfg.txt std_RC  0.0128889711128
-2_20_20_97_livingRoom_Cfg.txt E_mean_RC 6.559E-2
-2_20_20_97_livingRoom_Cfg.txt E_std_RC 1.289E-2
+2_20_20_97_livingRoom_Cfg.txt reachNum  303
+2_20_20_97_livingRoom_Cfg.txt E_LB 1.515E+2
+
+2_20_20_97_livingRoom_Cfg.txt astc_MS  162.0
+2_20_20_97_livingRoom_Cfg.txt astc_RC  0.0627062706270627
+2_20_20_97_livingRoom_Cfg.txt E_astc_MS 1.62E+2
+2_20_20_97_livingRoom_Cfg.txt E_astc_RC 6.271E-2
+
+2_20_20_97_livingRoom_Cfg.txt mean_MS  162.52941176470588
+2_20_20_97_livingRoom_Cfg.txt std_MS  1.818779392204742
+2_20_20_97_livingRoom_Cfg.txt E_mean_MS 1.625E+2
+2_20_20_97_livingRoom_Cfg.txt E_std_MS 1.819E+0
+2_20_20_97_livingRoom_Cfg.txt mean_CR  0.9947582993593476
+2_20_20_97_livingRoom_Cfg.txt std_CR  0.0035902236476231465
+2_20_20_97_livingRoom_Cfg.txt E_mean_CR 9.948E-1
+2_20_20_97_livingRoom_Cfg.txt E_std_CR 3.59E-3
+2_20_20_97_livingRoom_Cfg.txt mean_RC  0.06957171518293231
+2_20_20_97_livingRoom_Cfg.txt std_RC  0.011931567770299016
+2_20_20_97_livingRoom_Cfg.txt E_mean_RC 6.957E-2
+2_20_20_97_livingRoom_Cfg.txt E_std_RC 1.193E-2
 _______
-4_20_20_97_livingRoom_Cfg.txt times  9
-4_20_20_97_livingRoom_Cfg.txt makeSpan  83 81 83 86 84 82 86 110 86
-4_20_20_97_livingRoom_Cfg.txt c_lst 
-4_20_20_97_livingRoom_Cfg.txt r_lst 
+4_20_20_97_livingRoom_Cfg.txt times  14
+4_20_20_97_livingRoom_Cfg.txt makeSpan  83 81 83 86 84 82 86 110 86 83 86 85 86 82
+4_20_20_97_livingRoom_Cfg.txt c_lst  1.0 0.9834983498349835 1.0 0.9966996699669967 1.0 1.0 1.0 0.9900990099009901 1.0 1.0 0.9966996699669967 0.9933993399339934 0.9966996699669967 0.9966996699669967
+4_20_20_97_livingRoom_Cfg.txt r_lst  0.0790273556231003 0.06289308176100629 0.06769230769230769 0.08206686930091185 0.08459214501510574 0.06769230769230769 0.10355029585798817 0.12280701754385964 0.09281437125748503 0.06769230769230769 0.08206686930091185 0.09880239520958084 0.0764525993883792 0.062111801242236024
 4_20_20_97_livingRoom_Cfg.txt lowBound  75.75
-4_20_20_97_livingRoom_Cfg.txt mean_MS  86.7777777778
-4_20_20_97_livingRoom_Cfg.txt std_MS  8.39017650162
-4_20_20_97_livingRoom_Cfg.txt E_mean_MS 8.678E+1
-4_20_20_97_livingRoom_Cfg.txt E_std_MS 8.39E+0
-4_20_20_97_livingRoom_Cfg.txt mean_CR  0.996699669967
-4_20_20_97_livingRoom_Cfg.txt std_CR  0.00560948241319
+4_20_20_97_livingRoom_Cfg.txt reachNum  303
+4_20_20_97_livingRoom_Cfg.txt E_LB 7.575E+1
+
+4_20_20_97_livingRoom_Cfg.txt astc_MS  84.0
+4_20_20_97_livingRoom_Cfg.txt astc_RC  0.07590759075907591
+4_20_20_97_livingRoom_Cfg.txt E_astc_MS 8.4E+1
+4_20_20_97_livingRoom_Cfg.txt E_astc_RC 7.591E-2
+
+4_20_20_97_livingRoom_Cfg.txt mean_MS  85.92857142857143
+4_20_20_97_livingRoom_Cfg.txt std_MS  6.891654225161307
+4_20_20_97_livingRoom_Cfg.txt E_mean_MS 8.593E+1
+4_20_20_97_livingRoom_Cfg.txt E_std_MS 6.892E+0
+4_20_20_97_livingRoom_Cfg.txt mean_CR  0.9966996699669968
+4_20_20_97_livingRoom_Cfg.txt std_CR  0.004667371492980506
 4_20_20_97_livingRoom_Cfg.txt E_mean_CR 9.967E-1
-4_20_20_97_livingRoom_Cfg.txt E_std_CR 5.609E-3
-4_20_20_97_livingRoom_Cfg.txt mean_RC  0.0847928613049
-4_20_20_97_livingRoom_Cfg.txt std_RC  0.0181549890128
-4_20_20_97_livingRoom_Cfg.txt E_mean_RC 8.479E-2
-4_20_20_97_livingRoom_Cfg.txt E_std_RC 1.815E-2
+4_20_20_97_livingRoom_Cfg.txt E_std_CR 4.667E-3
+4_20_20_97_livingRoom_Cfg.txt mean_RC  0.08216155175553486
+4_20_20_97_livingRoom_Cfg.txt std_RC  0.016796294311006953
+4_20_20_97_livingRoom_Cfg.txt E_mean_RC 8.216E-2
+4_20_20_97_livingRoom_Cfg.txt E_std_RC 1.68E-2
 _______
-8_40_40_329_office_Cfg.txt times  4
-8_40_40_329_office_Cfg.txt makeSpan  224 208 211 216
-8_40_40_329_office_Cfg.txt c_lst 
-8_40_40_329_office_Cfg.txt r_lst 
+8_40_40_329_office_Cfg.txt times  13
+8_40_40_329_office_Cfg.txt makeSpan  224 208 211 216 218 209 219 209 199 205 212 208 216
+8_40_40_329_office_Cfg.txt c_lst  0.994492525570417 0.99213217938631 0.988198269079465 0.989771833202203 0.985051140833989 0.983477576711251 0.998426435877262 0.996066089693155 0.990558615263572 0.971675845790716 0.981904012588513 0.994492525570417 0.975609756097561
+8_40_40_329_office_Cfg.txt r_lst  0.21059190031152647 0.19695044472681067 0.1896774193548387 0.1961783439490446 0.20632911392405062 0.18116415958142576 0.22702373706634205 0.18549422336328628 0.19154388212684176 0.15975526852481306 0.19768934531450577 0.20825515947467166 0.25180722891566265
 8_40_40_329_office_Cfg.txt lowBound  158.875
-8_40_40_329_office_Cfg.txt mean_MS  214.75
-8_40_40_329_office_Cfg.txt std_MS  6.05702071979
-8_40_40_329_office_Cfg.txt E_mean_MS 2.148E+2
-8_40_40_329_office_Cfg.txt E_std_MS 6.057E+0
-8_40_40_329_office_Cfg.txt mean_CR  0.99114870181
-8_40_40_329_office_Cfg.txt std_CR  0.00238480638336
-8_40_40_329_office_Cfg.txt E_mean_CR 9.911E-1
-8_40_40_329_office_Cfg.txt E_std_CR 2.385E-3
-8_40_40_329_office_Cfg.txt mean_RC  0.198349527086
-8_40_40_329_office_Cfg.txt std_RC  0.00761171173843
-8_40_40_329_office_Cfg.txt E_mean_RC 1.983E-1
-8_40_40_329_office_Cfg.txt E_std_RC 7.612E-3
+8_40_40_329_office_Cfg.txt reachNum  1271
+8_40_40_329_office_Cfg.txt E_LB 1.589E+2
+
+8_40_40_329_office_Cfg.txt astc_MS  188.0
+8_40_40_329_office_Cfg.txt astc_RC  0.17151848937844216
+8_40_40_329_office_Cfg.txt E_astc_MS 1.88E+2
+8_40_40_329_office_Cfg.txt E_astc_RC 1.715E-1
+
+8_40_40_329_office_Cfg.txt mean_MS  211.84615384615384
+8_40_40_329_office_Cfg.txt std_MS  6.383225057146075
+8_40_40_329_office_Cfg.txt E_mean_MS 2.118E+2
+8_40_40_329_office_Cfg.txt E_std_MS 6.383E+0
+8_40_40_329_office_Cfg.txt mean_CR  0.9878351388972948
+8_40_40_329_office_Cfg.txt std_CR  0.007700300879292588
+8_40_40_329_office_Cfg.txt E_mean_CR 9.878E-1
+8_40_40_329_office_Cfg.txt E_std_CR 7.7E-3
+8_40_40_329_office_Cfg.txt mean_RC  0.20018924820260153
+8_40_40_329_office_Cfg.txt std_RC  0.02153056834506157
+8_40_40_329_office_Cfg.txt E_mean_RC 2.002E-1
+8_40_40_329_office_Cfg.txt E_std_RC 2.153E-2
 _______
-6_40_40_329_office_Cfg.txt times  4
-6_40_40_329_office_Cfg.txt makeSpan  276 261 287 264
-6_40_40_329_office_Cfg.txt c_lst 
-6_40_40_329_office_Cfg.txt r_lst 
+6_40_40_329_office_Cfg.txt times  13
+6_40_40_329_office_Cfg.txt makeSpan  276 261 287 264 276 280 281 281 270 266 278 271 267
+6_40_40_329_office_Cfg.txt c_lst  0.983477576711251 0.987411487018096 0.997639653815893 0.9795436664044059 0.987411487018096 0.983477576711251 0.989771833202203 0.9866247049567269 0.991345397324941 0.988198269079465 0.997639653815893 0.982690794649882 0.988985051140834
+6_40_40_329_office_Cfg.txt r_lst  0.19833653230966092 0.17422748191978962 0.18497109826589594 0.19652061855670103 0.215625 0.19381841596909208 0.18737926593689633 0.20379746835443038 0.19758576874205844 0.2058080808080808 0.19823232323232323 0.2031847133757962 0.17789404839764553
 6_40_40_329_office_Cfg.txt lowBound  211.83333333333334
-6_40_40_329_office_Cfg.txt mean_MS  272.0
-6_40_40_329_office_Cfg.txt std_MS  10.3198837203
-6_40_40_329_office_Cfg.txt E_mean_MS 2.72E+2
-6_40_40_329_office_Cfg.txt E_std_MS 1.032E+1
-6_40_40_329_office_Cfg.txt mean_CR  0.987018095987
-6_40_40_329_office_Cfg.txt std_CR  0.00673376977523
-6_40_40_329_office_Cfg.txt E_mean_CR 9.87E-1
-6_40_40_329_office_Cfg.txt E_std_CR 6.734E-3
-6_40_40_329_office_Cfg.txt mean_RC  0.188513932763
-6_40_40_329_office_Cfg.txt std_RC  0.00971139579595
-6_40_40_329_office_Cfg.txt E_mean_RC 1.885E-1
-6_40_40_329_office_Cfg.txt E_std_RC 9.711E-3
+6_40_40_329_office_Cfg.txt reachNum  1271
+6_40_40_329_office_Cfg.txt E_LB 2.118E+2
+
+6_40_40_329_office_Cfg.txt astc_MS  248.0
+6_40_40_329_office_Cfg.txt astc_RC  0.16601101494885917
+6_40_40_329_office_Cfg.txt E_astc_MS 2.48E+2
+6_40_40_329_office_Cfg.txt E_astc_RC 1.66E-1
+
+6_40_40_329_office_Cfg.txt mean_MS  273.6923076923077
+6_40_40_329_office_Cfg.txt std_MS  7.5077868846501925
+6_40_40_329_office_Cfg.txt E_mean_MS 2.737E+2
+6_40_40_329_office_Cfg.txt E_std_MS 7.508E+0
+6_40_40_329_office_Cfg.txt mean_CR  0.9880167039883798
+6_40_40_329_office_Cfg.txt std_CR  0.00514683571396704
+6_40_40_329_office_Cfg.txt E_mean_CR 9.88E-1
+6_40_40_329_office_Cfg.txt E_std_CR 5.147E-3
+6_40_40_329_office_Cfg.txt mean_RC  0.19518313968218234
+6_40_40_329_office_Cfg.txt std_RC  0.011097105390379327
+6_40_40_329_office_Cfg.txt E_mean_RC 1.952E-1
+6_40_40_329_office_Cfg.txt E_std_RC 1.11E-2
 _______
-4_40_40_329_office_Cfg.txt times  5
-4_40_40_329_office_Cfg.txt makeSpan  398 386 396 371 387
-4_40_40_329_office_Cfg.txt c_lst 
-4_40_40_329_office_Cfg.txt r_lst 
+4_40_40_329_office_Cfg.txt times  14
+4_40_40_329_office_Cfg.txt makeSpan  398 386 396 371 387 370 367 388 417 386 366 400 367 384
+4_40_40_329_office_Cfg.txt c_lst  0.994492525570417 0.991345397324941 0.9795436664044059 0.96066089693155 0.990558615263572 0.9653815892997639 0.967741935483871 0.985837922895358 0.998426435877262 0.978756884343037 0.975609756097561 0.997639653815893 0.975609756097561 0.995279307631786
+4_40_40_329_office_Cfg.txt r_lst  0.1922094508301405 0.16334661354581673 0.17483443708609273 0.15031315240083507 0.1595460614152203 0.14642609299097847 0.16030013642564803 0.18571428571428572 0.19198982835346473 0.14667580534612748 0.13216783216783218 0.1673228346456693 0.1511627906976744 0.14862138533960995
 4_40_40_329_office_Cfg.txt lowBound  317.75
-4_40_40_329_office_Cfg.txt mean_MS  387.6
-4_40_40_329_office_Cfg.txt std_MS  9.56242647031
-4_40_40_329_office_Cfg.txt E_mean_MS 3.876E+2
-4_40_40_329_office_Cfg.txt E_std_MS 9.562E+0
-4_40_40_329_office_Cfg.txt mean_CR  0.983320220299
-4_40_40_329_office_Cfg.txt std_CR  0.0124042374036
-4_40_40_329_office_Cfg.txt E_mean_CR 9.833E-1
-4_40_40_329_office_Cfg.txt E_std_CR 1.24E-2
-4_40_40_329_office_Cfg.txt mean_RC  0.168049943056
-4_40_40_329_office_Cfg.txt std_RC  0.0144134813929
-4_40_40_329_office_Cfg.txt E_mean_RC 1.68E-1
-4_40_40_329_office_Cfg.txt E_std_RC 1.441E-2
+4_40_40_329_office_Cfg.txt reachNum  1271
+4_40_40_329_office_Cfg.txt E_LB 3.178E+2
+
+4_40_40_329_office_Cfg.txt astc_MS  376.0
+4_40_40_329_office_Cfg.txt astc_RC  0.16601101494885917
+4_40_40_329_office_Cfg.txt E_astc_MS 3.76E+2
+4_40_40_329_office_Cfg.txt E_astc_RC 1.66E-1
+
+4_40_40_329_office_Cfg.txt mean_MS  384.5
+4_40_40_329_office_Cfg.txt std_MS  14.593295916765538
+4_40_40_329_office_Cfg.txt E_mean_MS 3.845E+2
+4_40_40_329_office_Cfg.txt E_std_MS 1.459E+1
+4_40_40_329_office_Cfg.txt mean_CR  0.9826345959312128
+4_40_40_329_office_Cfg.txt std_CR  0.012099441869928992
+4_40_40_329_office_Cfg.txt E_mean_CR 9.826E-1
+4_40_40_329_office_Cfg.txt E_std_CR 1.21E-2
+4_40_40_329_office_Cfg.txt mean_RC  0.1621879076399568
+4_40_40_329_office_Cfg.txt std_RC  0.01768373830324349
+4_40_40_329_office_Cfg.txt E_mean_RC 1.622E-1
+4_40_40_329_office_Cfg.txt E_std_RC 1.768E-2
 _______
-2_40_40_329_office_Cfg.txt times  5
-2_40_40_329_office_Cfg.txt makeSpan  707 686 697 694 697
-2_40_40_329_office_Cfg.txt c_lst 
-2_40_40_329_office_Cfg.txt r_lst 
+2_40_40_329_office_Cfg.txt times  14
+2_40_40_329_office_Cfg.txt makeSpan  707 686 697 694 697 654 677 711 745 715 688 702 691 714
+2_40_40_329_office_Cfg.txt c_lst  0.9402045633359559 0.919748229740362 0.9386309992132179 0.9205350118017309 0.9244689221085759 0.8835562549173879 0.9189614476789929 0.9488591660110149 0.9653815892997639 0.9354838709677419 0.9331235247836349 0.937844217151849 0.918174665617624 0.939417781274587
+2_40_40_329_office_Cfg.txt r_lst  0.14018691588785046 0.13622974963181148 0.1414213926776741 0.15223665223665223 0.14554670528602462 0.13803680981595093 0.13609467455621302 0.1473906911142454 0.1706001348617667 0.16033755274261605 0.1302121433796635 0.14531138153185397 0.13927781871775977 0.14682822523164646
 2_40_40_329_office_Cfg.txt lowBound  635.5
-2_40_40_329_office_Cfg.txt mean_MS  696.2
-2_40_40_329_office_Cfg.txt std_MS  6.73498329619
-2_40_40_329_office_Cfg.txt E_mean_MS 6.962E+2
-2_40_40_329_office_Cfg.txt E_std_MS 6.735E+0
-2_40_40_329_office_Cfg.txt mean_CR  0.92871754524
-2_40_40_329_office_Cfg.txt std_CR  0.0088958577656
-2_40_40_329_office_Cfg.txt E_mean_CR 9.287E-1
-2_40_40_329_office_Cfg.txt E_std_CR 8.896E-3
-2_40_40_329_office_Cfg.txt mean_RC  0.143124283144
-2_40_40_329_office_Cfg.txt std_RC  0.00543996239331
-2_40_40_329_office_Cfg.txt E_mean_RC 1.431E-1
-2_40_40_329_office_Cfg.txt E_std_RC 5.44E-3
+2_40_40_329_office_Cfg.txt reachNum  1271
+2_40_40_329_office_Cfg.txt E_LB 6.355E+2
+
+2_40_40_329_office_Cfg.txt astc_MS  734.0
+2_40_40_329_office_Cfg.txt astc_RC  0.15342250196695514
+2_40_40_329_office_Cfg.txt E_astc_MS 7.34E+2
+2_40_40_329_office_Cfg.txt E_astc_RC 1.534E-1
+
+2_40_40_329_office_Cfg.txt mean_MS  698.4285714285714
+2_40_40_329_office_Cfg.txt std_MS  20.187387454668272
+2_40_40_329_office_Cfg.txt E_mean_MS 6.984E+2
+2_40_40_329_office_Cfg.txt E_std_MS 2.019E+1
+2_40_40_329_office_Cfg.txt mean_CR  0.9303135888501741
+2_40_40_329_office_Cfg.txt std_CR  0.018163578889558742
+2_40_40_329_office_Cfg.txt E_mean_CR 9.303E-1
+2_40_40_329_office_Cfg.txt E_std_CR 1.816E-2
+2_40_40_329_office_Cfg.txt mean_RC  0.14497934626226633
+2_40_40_329_office_Cfg.txt std_RC  0.010157786072863231
+2_40_40_329_office_Cfg.txt E_mean_RC 1.45E-1
+2_40_40_329_office_Cfg.txt E_std_RC 1.016E-2
 _______

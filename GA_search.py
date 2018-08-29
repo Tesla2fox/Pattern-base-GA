@@ -133,7 +133,11 @@ def GA_search(Gm,Np,Pstart_x,Pstart_y,Robot_NUM,model,model_NUM,fileCfgName):
             #decode.addPattern()
             decode.chrom = Fangan_next_2[i,:,:].flatten()
             c_rate,makeSpan = decode.calFitness()
-            fitness_choose[i]=makeSpan/(len(decode.robReachSet))+(1-c_rate)
+            if(c_rate>= 1):
+                fitness_choose[i] = makeSpan
+            else:
+                fitness_choose[i] = 1000000000
+#            fitness_choose[i]=makeSpan/(len(decode.robReachSet))+(1-c_rate)
         Fangan_all=np.vstack((Fangan,Fangan_next_2))
         #Fangan_all=[]
         #fitness_all=[]
@@ -237,9 +241,9 @@ if __name__ == '__main__':
              'benchmarkFree','benchmarkLiving','benchmarkOffice',
              'reverseOutdoor','reverseOffice']
     conFileDir = './/data//'
-    benchMarkFile = strLst[7-1] +'.txt'
+    benchMarkFile = strLst[8-1] +'.txt'
     benchMarkFile  = conFileDir +benchMarkFile
-    runningData = conFileDir +strLst[7-1]+'runningData.txt'
+    runningData = conFileDir +strLst[8-1]+'runningData.txt'
     runDataFile = open(runningData , 'a')
 #    a = np.array([1,2])
 #    print(a)

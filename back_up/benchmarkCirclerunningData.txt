@@ -1,0 +1,247 @@
+_________time___2018-08-18 05:27:54
+data 2_30_30_242_CircularMaze_Cfg.txt makeSpan  338
+data 2_30_30_242_CircularMaze_Cfg.txt c_rate  0.9361702127659575
+data2_30_30_242_CircularMaze_Cfg.txt path  1 3 12 4 186 3 252 2 5 69 3 320 0 280
+_________time___2018-08-18 08:07:43
+data 2_30_30_242_CircularMaze_Cfg.txt makeSpan  362
+data 2_30_30_242_CircularMaze_Cfg.txt c_rate  0.986322188449848
+data2_30_30_242_CircularMaze_Cfg.txt path  1 0 35 4 228 5 62 2 5 258 5 346 0 187
+Statistics result 
+data 2_30_30_242_CircularMaze_Cfg.txt meanMakeSpan  350.0
+data 2_30_30_242_CircularMaze_Cfg.txt meanRate  0.9612462006079028
+data 2_30_30_242_CircularMaze_Cfg.txt minMakeSpan  338
+data 2_30_30_242_CircularMaze_Cfg.txt maxRate  0.986322188449848
+___________+++_______
+_________time___2018-08-18 10:35:52
+data 4_30_30_242_CircularMaze_Cfg.txt makeSpan  186
+data 4_30_30_242_CircularMaze_Cfg.txt c_rate  0.9984802431610942
+data4_30_30_242_CircularMaze_Cfg.txt path  1 2 108 4 342 0 320 4 3 65 2 226 1 130 2 3 300 0 278 1 377 3 3 390 1 326 2 225
+_________time___2018-08-18 15:29:24
+data 4_30_30_242_CircularMaze_Cfg.txt makeSpan  188
+data 4_30_30_242_CircularMaze_Cfg.txt c_rate  0.993920972644377
+data4_30_30_242_CircularMaze_Cfg.txt path  1 3 39 2 57 3 191 3 0 41 4 241 0 89 2 5 17 0 366 1 82 4 4 25 4 266 2 319
+Statistics result 
+data 4_30_30_242_CircularMaze_Cfg.txt meanMakeSpan  187.0
+data 4_30_30_242_CircularMaze_Cfg.txt meanRate  0.9962006079027356
+data 4_30_30_242_CircularMaze_Cfg.txt minMakeSpan  186
+data 4_30_30_242_CircularMaze_Cfg.txt maxRate  0.9984802431610942
+___________+++_______
+_________time___2018-08-18 18:02:04
+data 6_30_30_242_CircularMaze_Cfg.txt makeSpan  137
+data 6_30_30_242_CircularMaze_Cfg.txt c_rate  0.9984802431610942
+data6_30_30_242_CircularMaze_Cfg.txt path  6 1 74 0 293 4 313 3 0 147 2 333 5 306 5 1 285 2 103 1 68 4 0 169 3 80 1 282 2 4 282 5 161 1 169 1 5 273 2 137 1 75
+_________time___2018-08-18 20:54:54
+data 6_30_30_242_CircularMaze_Cfg.txt makeSpan  146
+data 6_30_30_242_CircularMaze_Cfg.txt c_rate  1.0
+data6_30_30_242_CircularMaze_Cfg.txt path  2 2 80 5 251 4 139 1 1 330 3 280 1 133 3 4 112 4 87 0 322 6 3 231 4 269 0 307 5 4 164 1 278 2 39 4 4 257 5 195 0 69
+Statistics result 
+data 6_30_30_242_CircularMaze_Cfg.txt meanMakeSpan  141.5
+data 6_30_30_242_CircularMaze_Cfg.txt meanRate  0.9992401215805471
+data 6_30_30_242_CircularMaze_Cfg.txt minMakeSpan  137
+data 6_30_30_242_CircularMaze_Cfg.txt maxRate  1.0
+___________+++_______
+_________time___2018-08-19 00:31:57
+data 8_30_30_242_CircularMaze_Cfg.txt makeSpan  101
+data 8_30_30_242_CircularMaze_Cfg.txt c_rate  1.0
+data8_30_30_242_CircularMaze_Cfg.txt path  8 5 42 1 162 2 216 1 2 208 3 297 2 188 7 4 122 4 325 2 81 6 5 10 4 232 3 128 5 0 275 3 112 3 336 2 5 53 0 163 4 121 4 1 20 2 144 4 386 3 1 19 4 319 0 77
+_________time___2018-08-19 03:29:14
+data 8_30_30_242_CircularMaze_Cfg.txt makeSpan  117
+data 8_30_30_242_CircularMaze_Cfg.txt c_rate  0.993920972644377
+data8_30_30_242_CircularMaze_Cfg.txt path  6 3 158 2 116 4 50 7 5 53 4 286 4 98 8 4 29 2 222 3 153 3 3 148 3 197 3 123 1 3 308 1 259 0 333 4 3 17 1 97 0 30 2 2 260 2 10 1 269 5 1 370 0 212 4 366
+Statistics result 
+data 8_30_30_242_CircularMaze_Cfg.txt meanMakeSpan  109.0
+data 8_30_30_242_CircularMaze_Cfg.txt meanRate  0.9969604863221885
+data 8_30_30_242_CircularMaze_Cfg.txt minMakeSpan  101
+data 8_30_30_242_CircularMaze_Cfg.txt maxRate  1.0
+___________+++_______
+_________time___2018-08-19 12:11:51
+data 2_30_30_242_CircularMaze_Cfg.txt makeSpan  367
+data 2_30_30_242_CircularMaze_Cfg.txt c_rate  0.9817629179331308
+data2_30_30_242_CircularMaze_Cfg.txt path  1 5 96 4 102 3 88 2 5 314 4 261 1 220
+Statistics result 
+data 2_30_30_242_CircularMaze_Cfg.txt meanMakeSpan  367.0
+data 2_30_30_242_CircularMaze_Cfg.txt meanRate  0.9817629179331308
+data 2_30_30_242_CircularMaze_Cfg.txt minMakeSpan  367
+data 2_30_30_242_CircularMaze_Cfg.txt maxRate  0.9817629179331308
+___________+++_______
+_________time___2018-08-19 15:05:22
+data 4_30_30_242_CircularMaze_Cfg.txt makeSpan  180
+data 4_30_30_242_CircularMaze_Cfg.txt c_rate  0.9817629179331308
+data4_30_30_242_CircularMaze_Cfg.txt path  3 5 55 2 32 1 164 2 3 18 1 112 4 287 1 1 216 3 119 2 98 4 4 16 5 25 4 87
+Statistics result 
+data 4_30_30_242_CircularMaze_Cfg.txt meanMakeSpan  180.0
+data 4_30_30_242_CircularMaze_Cfg.txt meanRate  0.9817629179331308
+data 4_30_30_242_CircularMaze_Cfg.txt minMakeSpan  180
+data 4_30_30_242_CircularMaze_Cfg.txt maxRate  0.9817629179331308
+___________+++_______
+_________time___2018-08-19 18:37:12
+data 6_30_30_242_CircularMaze_Cfg.txt makeSpan  127
+data 6_30_30_242_CircularMaze_Cfg.txt c_rate  0.9741641337386018
+data6_30_30_242_CircularMaze_Cfg.txt path  3 4 321 0 171 5 244 2 2 364 5 46 3 212 5 4 258 0 93 3 357 1 4 44 4 113 4 331 6 4 130 4 266 1 288 4 5 45 3 187 0 269
+Statistics result 
+data 6_30_30_242_CircularMaze_Cfg.txt meanMakeSpan  127.0
+data 6_30_30_242_CircularMaze_Cfg.txt meanRate  0.9741641337386018
+data 6_30_30_242_CircularMaze_Cfg.txt minMakeSpan  127
+data 6_30_30_242_CircularMaze_Cfg.txt maxRate  0.9741641337386018
+___________+++_______
+_________time___2018-08-19 22:10:39
+_________time___2018-08-22 17:05:33
+data 2_30_30_242_CircularMaze_Cfg.txt makeSpan  288
+data 2_30_30_242_CircularMaze_Cfg.txt c_rate  0.8480243161094225
+data 2_30_30_242_CircularMaze_Cfg.txt path  1 5 119 2 69 3 297 2 3 322 2 180 3 244
+Statistics result 
+data 2_30_30_242_CircularMaze_Cfg.txt meanMakeSpan  288.0
+data 2_30_30_242_CircularMaze_Cfg.txt meanRate  0.8480243161094225
+data 2_30_30_242_CircularMaze_Cfg.txt minMakeSpan  288
+data 2_30_30_242_CircularMaze_Cfg.txt maxRate  0.8480243161094225
+___________+++_______
+_________time___2018-08-22 17:05:39
+data 2_30_30_242_CircularMaze_Cfg.txt makeSpan  367
+data 2_30_30_242_CircularMaze_Cfg.txt c_rate  1.0
+data 2_30_30_242_CircularMaze_Cfg.txt path  1 5 100 4 89 3 16 2 5 4 5 240 2 267
+Statistics result 
+data 2_30_30_242_CircularMaze_Cfg.txt meanMakeSpan  367.0
+data 2_30_30_242_CircularMaze_Cfg.txt meanRate  1.0
+data 2_30_30_242_CircularMaze_Cfg.txt minMakeSpan  367
+data 2_30_30_242_CircularMaze_Cfg.txt maxRate  1.0
+___________+++_______
+_________time___2018-08-22 17:05:43
+data 2_30_30_242_CircularMaze_Cfg.txt makeSpan  357
+data 2_30_30_242_CircularMaze_Cfg.txt c_rate  0.9832826747720365
+data 2_30_30_242_CircularMaze_Cfg.txt path  1 0 166 4 374 4 235 2 5 226 4 17 2 250
+Statistics result 
+data 2_30_30_242_CircularMaze_Cfg.txt meanMakeSpan  357.0
+data 2_30_30_242_CircularMaze_Cfg.txt meanRate  0.9832826747720365
+data 2_30_30_242_CircularMaze_Cfg.txt minMakeSpan  357
+data 2_30_30_242_CircularMaze_Cfg.txt maxRate  0.9832826747720365
+___________+++_______
+_________time___2018-08-22 17:05:37
+data 2_30_30_242_CircularMaze_Cfg.txt makeSpan  283
+data 2_30_30_242_CircularMaze_Cfg.txt c_rate  0.8449848024316109
+data 2_30_30_242_CircularMaze_Cfg.txt path  1 4 19 5 52 1 298 2 3 56 2 377 1 124
+Statistics result 
+data 2_30_30_242_CircularMaze_Cfg.txt meanMakeSpan  283.0
+data 2_30_30_242_CircularMaze_Cfg.txt meanRate  0.8449848024316109
+data 2_30_30_242_CircularMaze_Cfg.txt minMakeSpan  283
+data 2_30_30_242_CircularMaze_Cfg.txt maxRate  0.8449848024316109
+___________+++_______
+_________time___2018-08-22 19:02:26
+data 4_30_30_242_CircularMaze_Cfg.txt makeSpan  185
+data 4_30_30_242_CircularMaze_Cfg.txt c_rate  0.9817629179331308
+data 4_30_30_242_CircularMaze_Cfg.txt path  2 5 98 5 9 2 233 3 2 384 0 181 0 129 1 4 221 4 379 4 72 4 4 174 3 180 3 53
+Statistics result 
+data 4_30_30_242_CircularMaze_Cfg.txt meanMakeSpan  185.0
+data 4_30_30_242_CircularMaze_Cfg.txt meanRate  0.9817629179331308
+data 4_30_30_242_CircularMaze_Cfg.txt minMakeSpan  185
+data 4_30_30_242_CircularMaze_Cfg.txt maxRate  0.9817629179331308
+___________+++_______
+_________time___2018-08-22 19:10:19
+data 4_30_30_242_CircularMaze_Cfg.txt makeSpan  183
+data 4_30_30_242_CircularMaze_Cfg.txt c_rate  1.0
+data 4_30_30_242_CircularMaze_Cfg.txt path  2 4 26 5 53 2 384 1 1 160 4 325 2 211 4 4 32 5 360 1 325 3 4 85 4 225 4 262
+Statistics result 
+data 4_30_30_242_CircularMaze_Cfg.txt meanMakeSpan  183.0
+data 4_30_30_242_CircularMaze_Cfg.txt meanRate  1.0
+data 4_30_30_242_CircularMaze_Cfg.txt minMakeSpan  183
+data 4_30_30_242_CircularMaze_Cfg.txt maxRate  1.0
+___________+++_______
+_________time___2018-08-22 20:10:08
+data 4_30_30_242_CircularMaze_Cfg.txt makeSpan  195
+data 4_30_30_242_CircularMaze_Cfg.txt c_rate  0.9969604863221885
+data 4_30_30_242_CircularMaze_Cfg.txt path  3 5 88 4 190 5 81 2 0 89 5 197 5 202 1 5 66 4 105 4 181 4 4 170 4 280 2 98
+Statistics result 
+data 4_30_30_242_CircularMaze_Cfg.txt meanMakeSpan  195.0
+data 4_30_30_242_CircularMaze_Cfg.txt meanRate  0.9969604863221885
+data 4_30_30_242_CircularMaze_Cfg.txt minMakeSpan  195
+data 4_30_30_242_CircularMaze_Cfg.txt maxRate  0.9969604863221885
+___________+++_______
+_________time___2018-08-22 21:05:30
+data 6_30_30_242_CircularMaze_Cfg.txt makeSpan  130
+data 6_30_30_242_CircularMaze_Cfg.txt c_rate  0.9954407294832827
+data 6_30_30_242_CircularMaze_Cfg.txt path  5 1 70 4 1 0 270 2 0 388 1 266 2 193 6 3 154 5 156 4 51 3 2 218 1 88 5 252 4 2 318 2 156 3 238 1 5 80 4 190 1 54
+Statistics result 
+data 6_30_30_242_CircularMaze_Cfg.txt meanMakeSpan  130.0
+data 6_30_30_242_CircularMaze_Cfg.txt meanRate  0.9954407294832827
+data 6_30_30_242_CircularMaze_Cfg.txt minMakeSpan  130
+data 6_30_30_242_CircularMaze_Cfg.txt maxRate  0.9954407294832827
+___________+++_______
+_________time___2018-08-22 21:00:48
+data 6_30_30_242_CircularMaze_Cfg.txt makeSpan  133
+data 6_30_30_242_CircularMaze_Cfg.txt c_rate  0.9984802431610942
+data 6_30_30_242_CircularMaze_Cfg.txt path  2 2 66 4 24 3 19 3 0 135 3 66 3 180 5 0 308 5 276 2 366 4 0 114 5 149 4 226 1 5 31 1 249 0 299 6 5 116 0 189 5 229
+Statistics result 
+data 6_30_30_242_CircularMaze_Cfg.txt meanMakeSpan  133.0
+data 6_30_30_242_CircularMaze_Cfg.txt meanRate  0.9984802431610942
+data 6_30_30_242_CircularMaze_Cfg.txt minMakeSpan  133
+data 6_30_30_242_CircularMaze_Cfg.txt maxRate  0.9984802431610942
+___________+++_______
+_________time___2018-08-22 18:24:54
+data 4_30_30_242_CircularMaze_Cfg.txt makeSpan  186
+data 4_30_30_242_CircularMaze_Cfg.txt c_rate  1.0
+data 4_30_30_242_CircularMaze_Cfg.txt path  4 5 98 3 270 5 257 1 3 95 2 76 2 290 3 5 196 0 93 4 274 2 3 374 3 232 4 384
+Statistics result 
+data 4_30_30_242_CircularMaze_Cfg.txt meanMakeSpan  186.0
+data 4_30_30_242_CircularMaze_Cfg.txt meanRate  1.0
+data 4_30_30_242_CircularMaze_Cfg.txt minMakeSpan  186
+data 4_30_30_242_CircularMaze_Cfg.txt maxRate  1.0
+___________+++_______
+_________time___2018-08-22 22:01:38
+data 6_30_30_242_CircularMaze_Cfg.txt makeSpan  135
+data 6_30_30_242_CircularMaze_Cfg.txt c_rate  0.9924012158054711
+data 6_30_30_242_CircularMaze_Cfg.txt path  6 4 57 5 34 4 100 1 2 13 3 2 1 152 2 4 100 4 95 3 318 4 4 133 3 162 3 396 3 0 187 3 237 4 5 5 1 70 1 309 3 343
+Statistics result 
+data 6_30_30_242_CircularMaze_Cfg.txt meanMakeSpan  135.0
+data 6_30_30_242_CircularMaze_Cfg.txt meanRate  0.9924012158054711
+data 6_30_30_242_CircularMaze_Cfg.txt minMakeSpan  135
+data 6_30_30_242_CircularMaze_Cfg.txt maxRate  0.9924012158054711
+___________+++_______
+_________time___2018-08-22 23:36:41
+data 6_30_30_242_CircularMaze_Cfg.txt makeSpan  130
+data 6_30_30_242_CircularMaze_Cfg.txt c_rate  0.9924012158054711
+data 6_30_30_242_CircularMaze_Cfg.txt path  4 2 70 4 33 3 164 5 0 355 5 69 4 379 1 3 170 0 68 4 15 6 0 271 2 294 4 189 2 4 193 4 367 2 52 3 5 133 2 304 0 199
+Statistics result 
+data 6_30_30_242_CircularMaze_Cfg.txt meanMakeSpan  130.0
+data 6_30_30_242_CircularMaze_Cfg.txt meanRate  0.9924012158054711
+data 6_30_30_242_CircularMaze_Cfg.txt minMakeSpan  130
+data 6_30_30_242_CircularMaze_Cfg.txt maxRate  0.9924012158054711
+___________+++_______
+_________time___2018-08-22 23:29:13
+data 8_30_30_242_CircularMaze_Cfg.txt makeSpan  111
+data 8_30_30_242_CircularMaze_Cfg.txt c_rate  0.986322188449848
+data 8_30_30_242_CircularMaze_Cfg.txt path  4 0 11 4 41 3 81 7 1 180 0 21 4 152 1 1 269 0 130 0 100 2 2 194 4 113 3 212 3 4 237 4 124 0 213 6 2 385 1 143 3 333 5 5 2 2 203 3 179 8 1 189 5 334 2 61
+Statistics result 
+data 8_30_30_242_CircularMaze_Cfg.txt meanMakeSpan  111.0
+data 8_30_30_242_CircularMaze_Cfg.txt meanRate  0.986322188449848
+data 8_30_30_242_CircularMaze_Cfg.txt minMakeSpan  111
+data 8_30_30_242_CircularMaze_Cfg.txt maxRate  0.986322188449848
+___________+++_______
+_________time___2018-08-22 23:21:23
+data 8_30_30_242_CircularMaze_Cfg.txt makeSpan  112
+data 8_30_30_242_CircularMaze_Cfg.txt c_rate  0.9984802431610942
+data 8_30_30_242_CircularMaze_Cfg.txt path  6 0 61 5 114 5 85 3 2 146 5 303 3 221 5 5 275 5 131 5 199 7 3 47 0 352 1 53 2 1 66 0 367 2 188 8 1 26 2 20 1 109 4 5 389 4 22 3 333 1 5 32 5 396 0 304
+Statistics result 
+data 8_30_30_242_CircularMaze_Cfg.txt meanMakeSpan  112.0
+data 8_30_30_242_CircularMaze_Cfg.txt meanRate  0.9984802431610942
+data 8_30_30_242_CircularMaze_Cfg.txt minMakeSpan  112
+data 8_30_30_242_CircularMaze_Cfg.txt maxRate  0.9984802431610942
+___________+++_______
+_________time___2018-08-23 00:16:04
+data 8_30_30_242_CircularMaze_Cfg.txt makeSpan  108
+data 8_30_30_242_CircularMaze_Cfg.txt c_rate  0.9969604863221885
+data 8_30_30_242_CircularMaze_Cfg.txt path  8 0 85 2 136 4 117 5 2 276 5 148 4 152 4 2 6 2 90 0 390 1 3 121 3 48 4 81 3 1 25 3 62 2 180 7 3 29 4 363 4 331 6 5 28 3 84 5 272 2 5 222 4 360 4 104
+Statistics result 
+data 8_30_30_242_CircularMaze_Cfg.txt meanMakeSpan  108.0
+data 8_30_30_242_CircularMaze_Cfg.txt meanRate  0.9969604863221885
+data 8_30_30_242_CircularMaze_Cfg.txt minMakeSpan  108
+data 8_30_30_242_CircularMaze_Cfg.txt maxRate  0.9969604863221885
+___________+++_______
+_________time___2018-08-23 01:55:21
+data 8_30_30_242_CircularMaze_Cfg.txt makeSpan  100
+data 8_30_30_242_CircularMaze_Cfg.txt c_rate  1.0
+data 8_30_30_242_CircularMaze_Cfg.txt path  1 5 221 2 147 0 13 4 5 266 3 358 1 304 3 4 316 1 231 1 10 5 3 351 2 169 0 76 6 3 155 1 20 3 222 7 3 83 0 166 5 56 8 5 26 1 15 3 159 2 0 79 1 272 4 327
+Statistics result 
+data 8_30_30_242_CircularMaze_Cfg.txt meanMakeSpan  100.0
+data 8_30_30_242_CircularMaze_Cfg.txt meanRate  1.0
+data 8_30_30_242_CircularMaze_Cfg.txt minMakeSpan  100
+data 8_30_30_242_CircularMaze_Cfg.txt maxRate  1.0
+___________+++_______
